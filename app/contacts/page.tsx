@@ -12,7 +12,7 @@ const Contacts = () => {
     appearing();
   });
   return (
-    <div className="block w-full mt-1 m-auto bg-mainColor pt-5 sm:w-full md:container lg:container xl:container">
+    <div className="block w-full mt-1 m-auto mb-11 bg-mainColor pt-5 sm:w-full md:container lg:container xl:container">
       <hr className="border-1 border-black" />
       <h1 className="text-animation m-auto text-center mt-5 text-4xl">
         Контакты

@@ -1,7 +1,8 @@
-import AlsoWeDo from "./alsowedo/page";
-import MainImg from "./mainImage/page";
-import Offers from "./offers/page";
-import WorkingWithUs from "./workingwithus/page";
+import AlsoWeDo from "@/components/AlsoWeDo/AlsoWeDo";
+import MainImg from "@/components/MainImage/MainImage";
+import Offers from "@/components/Offers/Offers";
+import OurWorks from "@/components/OurWorks/OurWorks";
+import WorkingWithUs from "@/components/WorkingWithUs/WorkingWithUs";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
       <Offers />
       <AlsoWeDo />
       <WorkingWithUs />
+      <OurWorks />
     </div>
   );
 };

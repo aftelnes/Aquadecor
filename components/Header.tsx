@@ -4,7 +4,7 @@ import { Menu, MenuDropdown } from "@mantine/core";
 
 const Header = () => {
   return (
-    <div className="flex justify-between w-full h-28 m-auto pt-5 sm:w-full md:container lg:container xl:container">
+    <div className="flex justify-between w-full h-26 m-auto pt-5 sm:w-full md:container lg:container xl:container">
       <Link
         href="/main"
         className="font-bold text-lg md:pt-7 md:text-base xl:text-3xl"
@@ -21,7 +21,7 @@ const Header = () => {
           <Menu.Dropdown>
             <Menu.Label>Бассейны</Menu.Label>
             <Menu.Item>
-              <Link href="/concrete_pools">Бетонные бассейны</Link>
+              <Link href="/servicies/concretePools">Бетонные бассейны</Link>
             </Menu.Item>
             <Menu.Item>
               <a href="/liner_pools">Бассейны из лайнера</a>
@@ -53,7 +53,7 @@ const Header = () => {
           <MenuDropdown>
             <Menu.Label>Оборудование</Menu.Label>
             <Menu.Item>
-              <Link href="/pumps">Насосы</Link>
+              <Link href="/equipments/pumps">Насосы</Link>
             </Menu.Item>
             <Menu.Item>
               <a href="/">Станции</a>

@@ -1,13 +1,13 @@
 "use client";
 import { useEffect } from "react";
 
-import buildPool from "../../../public/images/build_pool.jpg";
-import createPool from "../../../public/images/create_pool.jpeg";
-import polypropilen from "../../../public/images/polypropylene.jpeg";
-import pump from "../../../public/images/pump.jpg";
-import poolStation from "../../../public/images/pool_station.jpg";
-import font from "../../../public/images/font.jpg";
-import InfoBlock from "./infoblock/page";
+import buildPool from "../../public/images/build_pool.jpg";
+import createPool from "../../public/images/create_pool.jpeg";
+import polypropilen from "../../public/images/polypropylene.jpeg";
+import pump from "../../public/images/pump.jpg";
+import poolStation from "../../public/images/pool_station.jpg";
+import font from "../../public/images/font.jpg";
+import InfoBlock from "../InfoBlock/InfoBlock";
 import appearing from "@/tools/appearing";
 
 const Offers = () => {

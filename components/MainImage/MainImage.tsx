@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 
-import mainPageImage from "../../../public/images/pool1.jpg";
+import mainPageImage from "../../public/images/pool1.jpg";
 import appearing from "@/tools/appearing";
 
 const MainImg = () => {

@@ -9,7 +9,7 @@
 
 .element-animation.element-show {
   opacity: 1;
-  transition: all 2s;
+  transition: all 1.5s;
   transform: translateY(0%);
 }
 
@@ -22,7 +22,7 @@
 
 .text-animation.element-show {
   opacity: 1;
-  transition: all 2s;
+  transition: all 1.5s;
 }
 
 .info-block {

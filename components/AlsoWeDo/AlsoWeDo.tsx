@@ -2,12 +2,12 @@
 
 import { useEffect } from "react";
 
-import InfoBlock from "../offers/infoblock/page";
+import InfoBlock from "@/components/InfoBlock/InfoBlock";
 import appearing from "@/tools/appearing";
 
-import otdelka from "../../../public/images/otdelka.jpg";
-import proektirovanie from "../../../public/images/proektirovanie.jpg";
-import remont from "../../../public/images/remont.jpg";
+import otdelka from "../../public/images/otdelka.jpg";
+import proektirovanie from "../../public/images/proektirovanie.jpg";
+import remont from "../../public/images/remont.jpg";
 
 const AlsoWeDo = () => {
   useEffect(() => {
