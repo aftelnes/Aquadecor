@@ -1,0 +1,32 @@
+.element-animation {
+  /* margin: 2rem; */
+  margin: 0 auto;
+  margin-top: 2rem;
+  /* Скроем элемент в начальном состоянии */
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 2s;
+  transform: translateY(0%);
+}
+
+.text-animation {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  opacity: 0;
+}
+
+.text-animation.element-show {
+  opacity: 1;
+  transition: all 2s;
+}
+
+.info-block {
+  background: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
