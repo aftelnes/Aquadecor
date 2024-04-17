@@ -3,9 +3,9 @@ import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
 
-import beton1 from "../../../public/images/Pages/concrete_pool/beton1.jpg";
-import beton2 from "../../../public/images/Pages/concrete_pool/beton2.jpg";
-import beton3 from "../../../public/images/Pages/concrete_pool/beton3.jpeg";
+import beton1 from "../../../public/images/Pages/concrete_pools/beton1.jpg";
+import beton2 from "../../../public/images/Pages/concrete_pools/beton2.jpg";
+import beton3 from "../../../public/images/Pages/concrete_pools/beton3.jpeg";
 
 const ConcretePools = () => {
   useEffect(() => {

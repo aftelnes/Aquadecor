@@ -63,7 +63,7 @@ const Header = () => {
         </Menu>
 
         <Link
-          href="/test"
+          href="/about"
           className="w-20px h-7 text-base hover:opacity-60 sm:text-right xl:text-xl"
         >
           Про нас
