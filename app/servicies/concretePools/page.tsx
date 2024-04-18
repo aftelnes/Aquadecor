@@ -18,7 +18,7 @@ const ConcretePools = () => {
         Бетонные бассейны
       </h1>
 
-      <div className="element-animation flex w-full mb-5  shadow-2xl shadow-gray-300">
+      <div className="element-animation  w-full mb-5  shadow-2xl shadow-gray-300">
         <img src={beton1.src} className="w-[750px]" />
         <p className="ml-9">Здесь будет текст</p>
       </div>

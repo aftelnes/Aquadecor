@@ -61,7 +61,12 @@ const Header = () => {
             <Menu.Item></Menu.Item>
           </MenuDropdown>
         </Menu>
-
+        <Link
+          href="/equipments"
+          className="w-20px h-7 text-base hover:opacity-60 sm:text-right xl:text-xl"
+        >
+          Оборудка
+        </Link>
         <Link
           href="/about"
           className="w-20px h-7 text-base hover:opacity-60 sm:text-right xl:text-xl"
