@@ -2,41 +2,41 @@
 import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
-import pump from "../../../public/images/Pages/pumps/pump.jpg";
-import pump2 from "../../../public/images/Pages/pumps/pump2.jpg";
-import pump3 from "../../../public/images/Pages/pumps/pump3.jpeg";
+import beton1 from "../../../../public/images/Pages/concrete_pools/beton1.jpg";
+import beton2 from "../../../../public/images/Pages/concrete_pools/beton2.jpg";
+import beton3 from "../../../../public/images/Pages/concrete_pools/beton3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
 
-const Pumps = () => {
+const ConcretePools = () => {
   useEffect(() => {
     appearing();
   });
   return (
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
-      <h1 className={pageStyle.pageH1}>Насосы для бассейна</h1>
+      <h1 className={pageStyle.pageH1}>Бетонные бассейны</h1>
 
       <InfoCard
-        image={pump.src}
+        image={beton1.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
-        imageAlt="Насос"
+        imageAlt="Бассейн>"
       />
       <InfoCard
-        image={pump2.src}
+        image={beton2.src}
         imageStyle="w-[500px] h-[350px] ml-auto"
         imageLocation="right"
-        imageAlt="Насос"
+        imageAlt="Бассейн>"
       />
       <InfoCard
-        image={pump3.src}
+        image={beton3.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
-        imageAlt="Насос"
+        imageAlt="Бассейн>"
       />
     </div>
   );
 };
-export default Pumps;
+export default ConcretePools;

@@ -21,16 +21,15 @@ const Header = () => {
           <Menu.Dropdown>
             <Menu.Label>Бассейны</Menu.Label>
             <Menu.Item>
-              <Link href="/servicies/concretePools">Бетонные бассейны</Link>
+              <Link href="/servicies/overflowPools">Бассейны перелевные</Link>
             </Menu.Item>
             <Menu.Item>
-              <a href="/liner_pools">Бассейны из лайнера</a>
+              <Link href="/servicies/overflowPools/concrete">
+                Бассейны скиммерные
+              </Link>
             </Menu.Item>
             <Menu.Item>
-              <a href="">Бассейны скиммерные</a>
-            </Menu.Item>
-            <Menu.Item>
-              <a href="">Бассейны переливные</a>
+              <Link href="/servicies/overflowPools">Бассейны детские</Link>
             </Menu.Item>
             <Menu.Label>Изготовление</Menu.Label>
             <Menu.Item>
@@ -44,28 +43,11 @@ const Header = () => {
             </Menu.Item>
           </Menu.Dropdown>
         </Menu>
-        <Menu shadow="md" width={150}>
-          <Menu.Target>
-            <button className="h-7 text-base hover:opacity-60 sm:text-right xl:text-xl">
-              Оборудование
-            </button>
-          </Menu.Target>
-          <MenuDropdown>
-            <Menu.Label>Оборудование</Menu.Label>
-            <Menu.Item>
-              <Link href="/equipments/pumps">Насосы</Link>
-            </Menu.Item>
-            <Menu.Item>
-              <a href="/">Станции</a>
-            </Menu.Item>
-            <Menu.Item></Menu.Item>
-          </MenuDropdown>
-        </Menu>
         <Link
           href="/equipments"
           className="w-20px h-7 text-base hover:opacity-60 sm:text-right xl:text-xl"
         >
-          Оборудка
+          Оборудование
         </Link>
         <Link
           href="/about"

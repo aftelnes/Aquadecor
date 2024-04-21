@@ -7,7 +7,7 @@ import polypropilen from "../../public/images/polypropylene.jpeg";
 import pump from "../../public/images/pump.jpg";
 import poolStation from "../../public/images/pool_station.jpg";
 import font from "../../public/images/font.jpg";
-import InfoBlock from "../InfoBlock/InfoBlock";
+import InfoBlock from "../InfoBlock/InfoBlockMainPage";
 import appearing from "@/tools/appearing";
 
 const Offers = () => {

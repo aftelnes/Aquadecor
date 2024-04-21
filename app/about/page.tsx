@@ -9,9 +9,9 @@ const AboutUs = () => {
     appearing();
   });
   return (
-    <div className="element-animation block w-full h-dvh mt-1 m-auto bg-mainColor pt-5 sm:w-full md:container lg:container xl:container">
+    <div className="block w-full h-dvh mt-1 m-auto bg-mainColor pt-5 sm:w-full md:container lg:container xl:container">
       <hr className="border-1 border-black mb-2" />
-      <div className="relative h-[700px] shadow-xl shadow-grey-300">
+      <div className="relative element-animation  h-[700px] shadow-xl shadow-grey-300">
         <img
           src={main_img.src}
           className="h-[700px] w-[1550px] absolute shadow-xl shadow-grey-300"

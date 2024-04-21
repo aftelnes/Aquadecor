@@ -1,27 +1,28 @@
 "use client";
 import { useEffect } from "react";
+import Link from "next/link";
 
-import appearing from "@/tools/appearing";
-
-import EquipmentItem from "@/components/InfoBlock/EquipmentItem";
 import pic from "../../public/images/Pages/Pumps/pump3.jpeg";
 
-const divStyle =
-  "w-[1000px] h-[170px] m-auto mb-6 shadow-2xl shadow-grey-300 hover:shadow-cyan-300 rounded flex";
+import sectionStyle from "@/styles/sectionStyle/sectionStyle";
+
+import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
+import appearing from "@/tools/appearing";
 
 const ConcretePools = () => {
   useEffect(() => {
     appearing();
   });
   return (
-    <div className="block w-full  mt-1 m-auto bg-mainColor pt-5 sm:w-full md:container lg:container xl:container mb-11">
-      <hr className="border-1 border-black" />
-      <h1 className="text-animation text-5xl mt-11 mb-12 text-center">
-        Оборудование
-      </h1>
-      <EquipmentItem img={pic.src} style={divStyle} />
-      <EquipmentItem img={pic.src} style={divStyle} />
-      <EquipmentItem img={pic.src} style={divStyle} />
+    <div className={sectionStyle.sectionStyle}>
+      <hr className={sectionStyle.sectionHr} />
+      <h1 className={sectionStyle.sectionH1}>Оборудование</h1>
+
+      <Link href="/equipments/pumps">
+        <InfoBlockInPage img={pic.src} header="Насосы" text="Насосы" />
+      </Link>
+      <InfoBlockInPage img={pic.src} header="Насосы" text="Насосы" />
+      <InfoBlockInPage img={pic.src} header="Насосы" text="Насосы" />
     </div>
   );
 };

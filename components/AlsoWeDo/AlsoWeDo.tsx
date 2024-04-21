@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-import InfoBlock from "@/components/InfoBlock/InfoBlock";
+import InfoBlock from "@/components/InfoBlock/InfoBlockMainPage";
 import appearing from "@/tools/appearing";
 
 import otdelka from "../../public/images/otdelka.jpg";
