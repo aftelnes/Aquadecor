@@ -9,7 +9,7 @@ import sectionStyle from "@/styles/sectionStyle/sectionStyle";
 import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
 import appearing from "@/tools/appearing";
 
-const ConcretePools = () => {
+const Equipments = () => {
   useEffect(() => {
     appearing();
   });
@@ -21,9 +21,8 @@ const ConcretePools = () => {
       <Link href="/equipments/pumps">
         <InfoBlockInPage img={pic.src} header="Насосы" text="Насосы" />
       </Link>
-      <InfoBlockInPage img={pic.src} header="Насосы" text="Насосы" />
-      <InfoBlockInPage img={pic.src} header="Насосы" text="Насосы" />
+      <InfoBlockInPage img={pic.src} header="Станции" text="Станции" />
     </div>
   );
 };
-export default ConcretePools;
+export default Equipments;

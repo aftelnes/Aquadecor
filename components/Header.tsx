@@ -24,9 +24,7 @@ const Header = () => {
               <Link href="/servicies/overflowPools">Бассейны перелевные</Link>
             </Menu.Item>
             <Menu.Item>
-              <Link href="/servicies/overflowPools/concrete">
-                Бассейны скиммерные
-              </Link>
+              <Link href="/servicies/overflowPools">Бассейны скиммерные</Link>
             </Menu.Item>
             <Menu.Item>
               <Link href="/servicies/overflowPools">Бассейны детские</Link>

@@ -2,36 +2,36 @@
 import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
-import polypropylene1 from "../../../../public/images/Pages/polypropylene_pools/polypropylene_pool1.jpg";
-import polypropylene2 from "../../../../public/images/Pages/polypropylene_pools/polypropylene_pool2.jpg";
-import polypropylene3 from "../../../../public/images/Pages/polypropylene_pools/polypropylene_pool3.jpeg";
+import mosaic1 from "../../../../public/images/Pages/mosaic/mosaic1.jpg";
+import mosaic2 from "../../../../public/images/Pages/mosaic/mosaic2.jpg";
+import mosaic3 from "../../../../public/images/Pages/mosaic/mosaic3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
 
-const PolypropylenePools = () => {
+const MosaicPools = () => {
   useEffect(() => {
     appearing();
   });
   return (
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
-      <h1 className={pageStyle.pageH1}>Полипропиленовые бассейны</h1>
+      <h1 className={pageStyle.pageH1}>Бетонные бассейны</h1>
 
       <InfoCard
-        image={polypropylene1.src}
+        image={mosaic1.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
         imageAlt="Бассейн>"
       />
       <InfoCard
-        image={polypropylene2.src}
+        image={mosaic2.src}
         imageStyle="w-[500px] h-[350px] ml-auto"
         imageLocation="right"
         imageAlt="Бассейн>"
       />
       <InfoCard
-        image={polypropylene3.src}
+        image={mosaic3.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
         imageAlt="Бассейн>"
@@ -39,4 +39,4 @@ const PolypropylenePools = () => {
     </div>
   );
 };
-export default PolypropylenePools;
+export default MosaicPools;
