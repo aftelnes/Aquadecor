@@ -9,7 +9,7 @@ import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
 
-const MosaicPools = () => {
+const OverflowMosaicPools = () => {
   useEffect(() => {
     appearing();
   });
@@ -22,21 +22,21 @@ const MosaicPools = () => {
         image={mosaic1.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
-        imageAlt="Бассейн>"
+        imageAlt="Бассейн"
       />
       <InfoCard
         image={mosaic2.src}
         imageStyle="w-[500px] h-[350px] ml-auto"
         imageLocation="right"
-        imageAlt="Бассейн>"
+        imageAlt="Бассейн"
       />
       <InfoCard
         image={mosaic3.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
-        imageAlt="Бассейн>"
+        imageAlt="Бассейн"
       />
     </div>
   );
 };
-export default MosaicPools;
+export default OverflowMosaicPools;

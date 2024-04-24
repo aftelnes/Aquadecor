@@ -24,10 +24,10 @@ const Header = () => {
               <Link href="/servicies/overflowPools">Бассейны перелевные</Link>
             </Menu.Item>
             <Menu.Item>
-              <Link href="/servicies/overflowPools">Бассейны скиммерные</Link>
+              <Link href="/servicies/skimmerPools">Бассейны скиммерные</Link>
             </Menu.Item>
             <Menu.Item>
-              <Link href="/servicies/overflowPools">Бассейны детские</Link>
+              <Link href="/servicies/childPools">Бассейны детские</Link>
             </Menu.Item>
             <Menu.Label>Изготовление</Menu.Label>
             <Menu.Item>

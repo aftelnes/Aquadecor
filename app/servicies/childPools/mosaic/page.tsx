@@ -2,14 +2,14 @@
 import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
-import film1 from "../../../../public/images/Pages/film_pools/film1.jpg";
-import film2 from "../../../../public/images/Pages/film_pools/film2.png";
-import film3 from "../../../../public/images/Pages/film_pools/film3.jpg";
+import mosaic1 from "../../../../public/images/Pages/mosaic/mosaic1.jpg";
+import mosaic2 from "../../../../public/images/Pages/mosaic/mosaic2.jpg";
+import mosaic3 from "../../../../public/images/Pages/mosaic/mosaic3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
 
-const OverflowFilmsPools = () => {
+const ChildMosaicPools = () => {
   useEffect(() => {
     appearing();
   });
@@ -19,19 +19,19 @@ const OverflowFilmsPools = () => {
       <h1 className={pageStyle.pageH1}>Бетонные бассейны</h1>
 
       <InfoCard
-        image={film1.src}
+        image={mosaic1.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
         imageAlt="Бассейн"
       />
       <InfoCard
-        image={film2.src}
+        image={mosaic2.src}
         imageStyle="w-[500px] h-[350px] ml-auto"
         imageLocation="right"
         imageAlt="Бассейн"
       />
       <InfoCard
-        image={film3.src}
+        image={mosaic3.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
         imageAlt="Бассейн"
@@ -39,4 +39,4 @@ const OverflowFilmsPools = () => {
     </div>
   );
 };
-export default OverflowFilmsPools;
+export default ChildMosaicPools;

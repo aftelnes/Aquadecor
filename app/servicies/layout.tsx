@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Бассейны",
-  description: "Бассейны, изготовление чаш, купелей",
+  description: "Бассейны перелевные, скиммерные",
 };
 
 export default function ContactsLayout({

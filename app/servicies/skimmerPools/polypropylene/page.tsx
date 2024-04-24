@@ -2,36 +2,36 @@
 import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
-import film1 from "../../../../public/images/Pages/film_pools/film1.jpg";
-import film2 from "../../../../public/images/Pages/film_pools/film2.png";
-import film3 from "../../../../public/images/Pages/film_pools/film3.jpg";
+import polypropylene1 from "../../../../public/images/Pages/polypropylene_pools/polypropylene_pool1.jpg";
+import polypropylene2 from "../../../../public/images/Pages/polypropylene_pools/polypropylene_pool2.jpg";
+import polypropylene3 from "../../../../public/images/Pages/polypropylene_pools/polypropylene_pool3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
 
-const OverflowFilmsPools = () => {
+const SkimmerPolypropylenePools = () => {
   useEffect(() => {
     appearing();
   });
   return (
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
-      <h1 className={pageStyle.pageH1}>Бетонные бассейны</h1>
+      <h1 className={pageStyle.pageH1}>Полипропиленовые бассейны</h1>
 
       <InfoCard
-        image={film1.src}
+        image={polypropylene1.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
         imageAlt="Бассейн"
       />
       <InfoCard
-        image={film2.src}
+        image={polypropylene2.src}
         imageStyle="w-[500px] h-[350px] ml-auto"
         imageLocation="right"
         imageAlt="Бассейн"
       />
       <InfoCard
-        image={film3.src}
+        image={polypropylene3.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
         imageAlt="Бассейн"
@@ -39,4 +39,4 @@ const OverflowFilmsPools = () => {
     </div>
   );
 };
-export default OverflowFilmsPools;
+export default SkimmerPolypropylenePools;

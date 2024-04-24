@@ -9,7 +9,7 @@ import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
 
-const PolypropylenePools = () => {
+const OverflowPolypropylenePools = () => {
   useEffect(() => {
     appearing();
   });
@@ -22,21 +22,21 @@ const PolypropylenePools = () => {
         image={polypropylene1.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
-        imageAlt="Бассейн>"
+        imageAlt="Бассейн"
       />
       <InfoCard
         image={polypropylene2.src}
         imageStyle="w-[500px] h-[350px] ml-auto"
         imageLocation="right"
-        imageAlt="Бассейн>"
+        imageAlt="Бассейн"
       />
       <InfoCard
         image={polypropylene3.src}
         imageStyle="w-[500px] h-[350px]"
         imageLocation="left"
-        imageAlt="Бассейн>"
+        imageAlt="Бассейн"
       />
     </div>
   );
 };
-export default PolypropylenePools;
+export default OverflowPolypropylenePools;

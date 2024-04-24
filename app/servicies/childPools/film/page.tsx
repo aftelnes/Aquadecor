@@ -9,7 +9,7 @@ import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
 
-const OverflowFilmsPools = () => {
+const ChildFilmsPools = () => {
   useEffect(() => {
     appearing();
   });
@@ -39,4 +39,4 @@ const OverflowFilmsPools = () => {
     </div>
   );
 };
-export default OverflowFilmsPools;
+export default ChildFilmsPools;
