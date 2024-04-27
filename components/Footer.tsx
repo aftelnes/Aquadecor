@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div>
@@ -11,19 +13,16 @@ const Footer = () => {
         <h1 className="font-bold text-lg mt-11 md:pt-7 md:text-base xl:text-3xl xl:ml-11">
           Аквадекор
         </h1>
-        <div className="grid grid-rows-4 grid-flow-col gap-1 h-[200px] w-[180px]">
-          <a href="" className="hover:underline">
-            Бассейны из бетона
-          </a>
-          <a href="" className="hover:underline">
-            Бассейны из плёнки
-          </a>
-          <a href="" className="hover:underline">
-            Скиммерные бассейны
-          </a>
-          <a href="" className="hover:underline">
-            Перелевные бассейны
-          </a>
+        <div className="grid grid-rows-4 grid-flow-col gap-1 h-[200px] w-[200px]">
+          <Link href="/servicies/overflowPools" className="hover:underline">
+            Бассейны перелевные
+          </Link>
+          <Link href="/servicies/skimmerPools" className="hover:underline">
+            Бассейны скиммерные
+          </Link>
+          <Link href="/servicies/childPools" className="hover:underline">
+            Бассейны детские
+          </Link>
         </div>
         <div className="grid grid-rows-4 grid-flow-col gap-1 h-[200px] w-[180px]">
           <a href="" className="hover:underline">
@@ -40,15 +39,15 @@ const Footer = () => {
           </a>
         </div>
         <div className="grid grid-rows-4 grid-flow-col gap-1 h-[200px] w-[180px]">
-          <a href="" className="hover:underline">
+          <Link href="/contacts" className="hover:underline">
             Контакты
-          </a>
-          <a href="" className="hover:underline">
+          </Link>
+          <Link href="/about" className="hover:underline">
             Про нас
-          </a>
-          <a href="" className="hover:underline">
-            Наши работы
-          </a>
+          </Link>
+          <Link href="/equipments" className="hover:underline">
+            Оборудование
+          </Link>
         </div>
       </div>
     </div>

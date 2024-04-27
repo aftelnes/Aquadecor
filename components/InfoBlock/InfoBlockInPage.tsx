@@ -16,7 +16,7 @@ const InfoBlockInPage = ({ img, header, text }: EquipmentItemProps) => {
       <div className="ml-2 mt-2 mb-2">
         <h1 className="text-2xl mb-1">{header}</h1>
         <div className="w-[400]">{text}</div>
-        <div className="text-right absolute mr-10 rounded-full bg-gray-400 bg-cyan-300 pr-3 pl-3 right-0 bottom-0 mb-5">
+        <div className="text-right absolute mr-10 rounded-full bg-cyan-300 pr-3 pl-3 right-0 bottom-0 mb-5">
           <p>100 000p</p>
         </div>
       </div>
