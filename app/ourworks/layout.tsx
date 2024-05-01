@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Аквадекор",
-  description: "Аквадекор",
+  title: "Наши работы",
+  description: "Бассейны перелевные, скиммерные",
 };
 
-export default function MainLayout({
+export default function OurWorksLayout({
   children,
 }: {
   children: React.ReactNode;

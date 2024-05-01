@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "О нас",
 };
 
-export default function ContactsLayout({
+export default function AboutLayout({
   children,
 }: {
   children: React.ReactNode;

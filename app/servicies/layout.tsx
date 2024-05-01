@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Бассейны перелевные, скиммерные",
 };
 
-export default function ContactsLayout({
+export default function ServiciesLayout({
   children,
 }: {
   children: React.ReactNode;

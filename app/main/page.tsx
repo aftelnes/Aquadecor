@@ -1,7 +1,7 @@
 import AlsoWeDo from "@/components/AlsoWeDo/AlsoWeDo";
 import MainImg from "@/components/MainImage/MainImage";
 import Offers from "@/components/Offers/Offers";
-import OurWorks from "@/components/OurWorks/OurWorks";
+import OurWorksMainPage from "@/components/OurWorks/OurWorksMainPage";
 import WorkingWithUs from "@/components/WorkingWithUs/WorkingWithUs";
 
 const Main = () => {
@@ -11,7 +11,7 @@ const Main = () => {
       <Offers />
       <AlsoWeDo />
       <WorkingWithUs />
-      <OurWorks />
+      <OurWorksMainPage />
     </div>
   );
 };

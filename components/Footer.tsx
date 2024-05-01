@@ -45,6 +45,9 @@ const Footer = () => {
           <Link href="/about" className="hover:underline">
             Про нас
           </Link>
+          <Link className="hover:underline" href="/ourworks">
+            Наши работы
+          </Link>
           <Link href="/equipments" className="hover:underline">
             Оборудование
           </Link>
