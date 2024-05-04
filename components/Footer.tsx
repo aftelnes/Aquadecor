@@ -10,7 +10,12 @@ const Footer = () => {
       space-x-20
       "
       >
-        <h1 className="font-bold text-lg mt-11 md:pt-7 md:text-base xl:text-3xl xl:ml-11">
+        <h1
+          className="font-bold 
+         xl:text-3xl xl:ml-11
+         lg:text-2xl
+         mt-11 md:pt-7 md:text-base "
+        >
           Аквадекор
         </h1>
         <div className="grid grid-rows-4 grid-flow-col gap-1 h-[200px] w-[200px]">

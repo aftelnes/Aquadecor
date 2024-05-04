@@ -26,7 +26,11 @@ const OurWorksMainPage = () => {
   });
 
   return (
-    <div className="element-animation h-[900px]">
+    <div
+      className="element-animation 
+    xl:h-[900px]
+    lg:h-[600px]"
+    >
       <OurWorksBlock
         images={[
           img1.src,
