@@ -7,7 +7,7 @@ import polypropilen from "../../public/images/polypropylene.jpeg";
 import pump from "../../public/images/pump.jpg";
 import poolStation from "../../public/images/pool_station.jpg";
 import font from "../../public/images/font.jpg";
-import InfoBlock from "../InfoBlock/InfoBlockMainPage";
+import InfoBlockMainPge from "../InfoBlock/InfoBlockMainPage";
 import appearing from "@/tools/appearing";
 import Link from "next/link";
 
@@ -21,20 +21,20 @@ const Offers = () => {
       <h1 className="text-animation">Мы предлагаем</h1>
       <div className="lg:flex lg:justify-between element-animation md:grid md:grid-cols-1 md:gap-1 ">
         <Link href="/servicies/overflowPools">
-          <InfoBlock
+          <InfoBlockMainPge
             textHeader="Перелевные бассейны"
             textDesc="Перелевные бассейны"
             cost={"от 237 000"}
             imgSrc={buildPool.src}
           />
         </Link>
-        <InfoBlock
+        <InfoBlockMainPge
           textHeader="Скиммерные бассейны"
           textDesc="Скиммерные бассейны"
           cost={"от 150 000"}
           imgSrc={createPool.src}
         />
-        <InfoBlock
+        <InfoBlockMainPge
           textHeader="Детсие бассейны"
           textDesc="Детсие бассейны"
           cost={"от 100 000"}
@@ -43,20 +43,20 @@ const Offers = () => {
       </div>
       <div className="lg:flex lg:justify-between element-animation md:grid md:grid-cols-1 md:gap-1">
         <Link href="/equipments">
-          <InfoBlock
+          <InfoBlockMainPge
             textHeader="Оборудование"
             textDesc="Оборудование"
             cost={"от 15 000"}
             imgSrc={pump.src}
           />
         </Link>
-        <InfoBlock
+        <InfoBlockMainPge
           textHeader="Ёмкости из полипропилена"
-          textDesc="Изготовление ёмкостей из полипропилена"
+          textDesc="Ёмкости из полипропилена"
           cost={"от 30 000"}
           imgSrc={polypropilen.src}
         />
-        <InfoBlock
+        <InfoBlockMainPge
           textHeader="Изготовление купелей"
           textDesc="Изготовление купелей"
           cost={"от 35 000"}

@@ -9,10 +9,10 @@ const MainImg = () => {
     appearing();
   });
   return (
-    <div className="element-animation xl:container relative xl:h-[700px] lg:h-[400px]">
+    <div className="element-animation xl:container relative xl:h-[600px] lg:h-[400px]">
       <img
         src={mainPageImage.src}
-        className="absolute  xl:pt-0 w-full xl:h-[700px] lg:h-[400px] sm:h-[250px]"
+        className="absolute  xl:pt-0 w-full xl:h-[600px] lg:h-[400px] sm:h-[250px]"
       />
       <div className="absolute text-white font-bold xl:ml-10 xl:text-6xl xl:mt-64 xl:w-[570px] lg:ml-4 lg:text-3xl lg:mt-36 lg:w-[280px] sm:w-[200px] sm:text-3xl sm:ml-2 sm:mt-10">
         Лучшие бассейны в Краснодаре

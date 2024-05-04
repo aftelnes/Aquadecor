@@ -12,7 +12,7 @@ const Header = () => {
     >
       <Link
         href="/main"
-        className="font-bold text-lg md:pt-7 text-base xl:text-3xl lg:text-2xl md:text-xl"
+        className="font-bold text-lg md:pt-7 text-base xl:text-4xl lg:text-2xl md:text-xl"
       >
         Аквадекор
       </Link>

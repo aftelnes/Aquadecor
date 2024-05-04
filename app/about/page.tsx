@@ -11,12 +11,12 @@ const AboutUs = () => {
   return (
     <div className="block w-full h-dvh mt-1 m-auto bg-mainColor pt-5 sm:w-full md:container lg:container xl:container">
       <hr className="border-1 border-black mb-2" />
-      <div className="relative element-animation  h-[700px] shadow-xl shadow-grey-300">
+      <div className="relative element-animation h-[600px] shadow-xl shadow-grey-300">
         <img
           src={main_img.src}
-          className="h-[700px] w-[1550px] absolute shadow-xl shadow-grey-300"
+          className="h-[600px] w-[1550px] absolute shadow-xl shadow-grey-300"
         />
-        <div className="absolute w-full h-[600px]  bg-black opacity-45 mt-11"></div>
+        <div className="absolute w-full h-[600px]  bg-black opacity-45"></div>
         <p className="absolute text-white mt-20 text-3xl w-[1000px] ml-[225px]">
           Мы уже много лет занимаемся строительством бассейнов под ключ, а так
           же продажей оборудования. Наши услуги сочетают в себе максимальное
