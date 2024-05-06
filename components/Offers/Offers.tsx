@@ -18,9 +18,11 @@ const Offers = () => {
   });
 
   return (
-    <div className="container element-animation h-auto">
-      <h1 className="text-animation xl:text-5xl lg:text-4xl">Мы предлагаем</h1>
-      <div className="element-animation lg:flex lg:justify-between md:grid md:grid-cols-1 md:gap-1 ">
+    <div className="element-animation h-auto xl:w-[1200px]">
+      <h1 className="text-animation xl:text-5xl lg:text-4xl md:text-3xl">
+        Мы предлагаем
+      </h1>
+      <div className="element-animation lg:flex lg:justify-between md:flex md:justify-between">
         <Link href="/servicies/overflowPools">
           <InfoBlockMainPge
             textHeader="Перелевные бассейны"
@@ -42,7 +44,7 @@ const Offers = () => {
           imgSrc={poolStation.src}
         />
       </div>
-      <div className="lg:flex lg:justify-between element-animation md:grid md:grid-cols-1 md:gap-1">
+      <div className="element-animation lg:flex lg:justify-between md:flex md:justify-between">
         <Link href="/equipments">
           <InfoBlockMainPge
             textHeader="Оборудование"

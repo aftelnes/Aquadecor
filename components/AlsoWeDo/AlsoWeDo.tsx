@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-import InfoBlock from "@/components/InfoBlock/InfoBlockMainPage";
+import InfoBlockMainPage from "@/components/InfoBlock/InfoBlockMainPage";
 import appearing from "@/tools/appearing";
 
 import otdelka from "../../public/images/otdelka.jpg";
@@ -14,24 +14,24 @@ const AlsoWeDo = () => {
     appearing();
   });
   return (
-    <div>
-      <h1 className="text-animation xl:text-5xl lg:text-4xl">
+    <div className="element-animation h-auto xl:w-[1200px]">
+      <h1 className="text-animation xl:text-5xl lg:text-4xl md:text-3xl">
         Так же мы делаем
       </h1>
-      <div className="lg:flex lg:justify-between element-animation md:grid md:grid-cols-1 md:gap-1">
-        <InfoBlock
+      <div className="lg:flex lg:justify-between element-animation md:grid md:grid-cols-3 md:gap-1">
+        <InfoBlockMainPage
           textHeader="Оттеделка бассейнов"
           textDesc="Материал - бетон, лайнер"
           cost={"от 37 000"}
           imgSrc={otdelka.src}
         />
-        <InfoBlock
+        <InfoBlockMainPage
           textHeader="Проектирование"
           textDesc="Проектирование"
           cost={"от 50 000"}
           imgSrc={proektirovanie.src}
         />
-        <InfoBlock
+        <InfoBlockMainPage
           textHeader="Ремонт бассейнов"
           textDesc="Ремонт бассейнов"
           cost={"от 15 000"}

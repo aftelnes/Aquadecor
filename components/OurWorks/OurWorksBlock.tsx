@@ -3,7 +3,8 @@ type OurWorksProps = {
   header: string;
 };
 const imgStyle =
-  "hover:scale-125 transition duration-700 delay-100 ease-in-out rounded xl:w-[300px] xl:h-[300px] lg:w-[200px] lg:h-[200px]";
+  "hover:scale-125 transition duration-700 delay-100 ease-in-out rounded " +
+  "xl:w-[250px] xl:h-[250px] lg:w-[200px] lg:h-[200px] md:w-[150px] md:h-[150px]";
 
 const OurWorksBlock = ({ images, header }: OurWorksProps) => {
   return (

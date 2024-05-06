@@ -17,9 +17,6 @@ import img10 from "../../public/images/our_works/img10.jpg";
 
 import OurWorksBlock from "./OurWorksBlock";
 
-const imgStyle =
-  "w-[300px] h-[300px] hover:scale-125 transition duration-700 delay-100 ease-in-out";
-
 const OurWorksMainPage = () => {
   useEffect(() => {
     appearing();
@@ -28,8 +25,10 @@ const OurWorksMainPage = () => {
   return (
     <div
       className="element-animation 
-    xl:h-[900px]
-    lg:h-[600px]"
+    xl:h-[900px] xl:w-[1200px]
+    lg:h-[600px]
+    md:h-[400px]
+    "
     >
       <OurWorksBlock
         images={[

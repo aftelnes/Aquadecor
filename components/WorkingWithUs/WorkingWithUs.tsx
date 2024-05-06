@@ -14,8 +14,8 @@ const WorkingWithUs = () => {
     appearing();
   });
   return (
-    <div className="mb-11">
-      <h1 className="text-animation mb-16 xl:text-5xl lg:text-4xl">
+    <div className="element-animation h-auto xl:w-[1200px]">
+      <h1 className="text-animation xl:text-5xl lg:text-4xl md:text-3xl">
         Работая с нами вы получите
       </h1>
       <div className="grid gap-2 grid-cols-2 grid-rows-2">
@@ -30,7 +30,7 @@ const WorkingWithUs = () => {
           img={guarant.src}
         />
         <WorkingWithUsItem
-          text="У вас будет возможность узнать всю необходиму инфаормцию от наших сотрудников в любой момент времени"
+          text="Вы сможете узнать всю необходиму информцию в любой момент времени"
           header={"Контроль качества и услуг"}
           img={quality_control.src}
         />

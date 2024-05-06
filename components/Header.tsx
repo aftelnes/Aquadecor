@@ -5,14 +5,15 @@ import { Menu } from "@mantine/core";
 const Header = () => {
   return (
     <div
-      className="m-auto pt-5 xl:flex xl:justify-between xl:h-26 xl:container
+      className="m-auto pt-5 
+      xl:flex xl:justify-between xl:h-26 xl:w-[1200px]
       lg:flex lg:justify-between lg:w-full lg:h-26 lg:container
       md:flex md:justify-between md:w-full md:h-26 lg:container
-      sm:container sm:w-full sm:grid sm:grid-rows-1"
+      sm:w-full sm:grid sm:grid-rows-1 sm:container "
     >
       <Link
         href="/main"
-        className="font-bold text-lg md:pt-7 text-base xl:text-4xl lg:text-2xl md:text-xl"
+        className="font-bold text-lg md:pt-7 text-base xl:text-4xl lg:text-3xl md:text-2xl"
       >
         Аквадекор
       </Link>
