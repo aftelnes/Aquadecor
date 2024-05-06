@@ -15,7 +15,9 @@ const WorkingWithUs = () => {
   });
   return (
     <div className="mb-11">
-      <h1 className="text-animation mb-16">Работая с нами вы получите</h1>
+      <h1 className="text-animation mb-16 xl:text-5xl lg:text-4xl">
+        Работая с нами вы получите
+      </h1>
       <div className="grid gap-2 grid-cols-2 grid-rows-2">
         <WorkingWithUsItem
           text="Мы рассчитаем за вас все расходы. А так же поможем выбрать лучший вариант"

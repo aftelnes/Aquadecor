@@ -15,7 +15,9 @@ const AlsoWeDo = () => {
   });
   return (
     <div>
-      <h1 className="text-animation">Так же мы делаем</h1>
+      <h1 className="text-animation xl:text-5xl lg:text-4xl">
+        Так же мы делаем
+      </h1>
       <div className="lg:flex lg:justify-between element-animation md:grid md:grid-cols-1 md:gap-1">
         <InfoBlock
           textHeader="Оттеделка бассейнов"

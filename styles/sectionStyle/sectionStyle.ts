@@ -8,6 +8,6 @@ const sectionStyle: SectionStyle = {
   sectionStyle:
     "block w-full  mt-1 m-auto bg-mainColor pt-5 sm:w-full md:container lg:container xl:container mb-11",
   sectionHr: "border-1 border-black",
-  sectionH1: "text-animation text-5xl mt-11 mb-12 text-center",
+  sectionH1: "text-animation mt-11 text-center xl:text-5xl lg:text-4xl",
 };
 export default sectionStyle;

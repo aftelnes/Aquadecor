@@ -7,6 +7,7 @@ import polypropilen from "../../public/images/polypropylene.jpeg";
 import pump from "../../public/images/pump.jpg";
 import poolStation from "../../public/images/pool_station.jpg";
 import font from "../../public/images/font.jpg";
+
 import InfoBlockMainPge from "../InfoBlock/InfoBlockMainPage";
 import appearing from "@/tools/appearing";
 import Link from "next/link";
@@ -18,8 +19,8 @@ const Offers = () => {
 
   return (
     <div className="container element-animation h-auto">
-      <h1 className="text-animation">Мы предлагаем</h1>
-      <div className="lg:flex lg:justify-between element-animation md:grid md:grid-cols-1 md:gap-1 ">
+      <h1 className="text-animation xl:text-5xl lg:text-4xl">Мы предлагаем</h1>
+      <div className="element-animation lg:flex lg:justify-between md:grid md:grid-cols-1 md:gap-1 ">
         <Link href="/servicies/overflowPools">
           <InfoBlockMainPge
             textHeader="Перелевные бассейны"

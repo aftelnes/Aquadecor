@@ -5,7 +5,7 @@ import { Menu } from "@mantine/core";
 const Header = () => {
   return (
     <div
-      className="m-auto pt-5 xl:flex xl:justify-between xl:w-full xl:h-26 xl:container
+      className="m-auto pt-5 xl:flex xl:justify-between xl:h-26 xl:container
       lg:flex lg:justify-between lg:w-full lg:h-26 lg:container
       md:flex md:justify-between md:w-full md:h-26 lg:container
       sm:container sm:w-full sm:grid sm:grid-rows-1"
