@@ -8,6 +8,7 @@ import film3 from "../../../../public/images/Pages/film_pools/film3.jpg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
 
 const SkimmerFilmsPools = () => {
   useEffect(() => {
@@ -16,23 +17,23 @@ const SkimmerFilmsPools = () => {
   return (
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
-      <h1 className={pageStyle.pageH1}>Бетонные бассейны</h1>
+      <h1 className={pageStyle.pageH1}>Плёночные бассейны</h1>
 
       <InfoCard
         image={film1.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={film2.src}
-        imageStyle="w-[500px] h-[350px] ml-auto"
+        imageStyle={infoCardStyle.rightImage}
         imageLocation="right"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={film3.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />

@@ -1,14 +1,15 @@
 "use client";
 import { useEffect } from "react";
 
+import appearing from "@/tools/appearing";
+import createMetadata from "@/tools/createMetadata";
 import beton1 from "../../../../public/images/Pages/concrete_pools/beton1.jpg";
 import beton2 from "../../../../public/images/Pages/concrete_pools/beton2.jpg";
 import beton3 from "../../../../public/images/Pages/concrete_pools/beton3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
-import appearing from "@/tools/appearing";
-import createMetadata from "@/tools/createMetadata";
+import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
 
 const SkimmerConcretePools = () => {
   useEffect(() => {
@@ -22,19 +23,19 @@ const SkimmerConcretePools = () => {
 
       <InfoCard
         image={beton1.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={beton2.src}
-        imageStyle="w-[500px] h-[350px] ml-auto"
+        imageStyle={infoCardStyle.rightImage}
         imageLocation="right"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={beton3.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />

@@ -8,6 +8,7 @@ import mosaic3 from "../../../../public/images/Pages/mosaic/mosaic3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
 
 const OverflowMosaicPools = () => {
   useEffect(() => {
@@ -16,23 +17,23 @@ const OverflowMosaicPools = () => {
   return (
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
-      <h1 className={pageStyle.pageH1}>Бетонные бассейны</h1>
+      <h1 className={pageStyle.pageH1}>Мозаичные бассейны</h1>
 
       <InfoCard
         image={mosaic1.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={mosaic2.src}
-        imageStyle="w-[500px] h-[350px] ml-auto"
+        imageStyle={infoCardStyle.rightImage}
         imageLocation="right"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={mosaic3.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />

@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
-import sectionStyle from "@/styles/sectionStyle/sectionStyle";
 
 import img1 from "../../public/images/our_works/img1.jpeg";
 import img2 from "../../public/images/our_works/img2.jpg";

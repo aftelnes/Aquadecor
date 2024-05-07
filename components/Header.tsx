@@ -18,7 +18,7 @@ const Header = () => {
         Аквадекор
       </Link>
       <div>
-        <div className="grid space-x-7 md:flex md:pt-7">
+        <div className="grid space-x-7 xl:pt-10 lg:pt-10 md:flex md:pt-8">
           <div className="w-20px h-7 text-base hover:opacity-60 xl:text-xl sm:mb-2 sm:text-right">
             <Menu shadow="md" width={200}>
               <Menu.Target>

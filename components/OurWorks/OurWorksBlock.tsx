@@ -9,7 +9,13 @@ const imgStyle =
 const OurWorksBlock = ({ images, header }: OurWorksProps) => {
   return (
     <div className="element-animation">
-      <h1 className="text-animation xl:mb-20 xl:text-5xl lg:text-4xl lg:mb-10">
+      <h1
+        className="text-animation 
+      xl:text-5xl xl:mb-20  
+      lg:text-4xl lg:mb-10
+      md:text-3xl md:mb-5
+      "
+      >
         {header}
       </h1>
       <div className="grid grid-rows-2 grid-flow-col gap-1 ">

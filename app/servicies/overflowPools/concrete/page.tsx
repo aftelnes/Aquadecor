@@ -8,6 +8,7 @@ import beton3 from "../../../../public/images/Pages/concrete_pools/beton3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
 
 const OverflowConcretePools = () => {
   useEffect(() => {
@@ -20,19 +21,19 @@ const OverflowConcretePools = () => {
 
       <InfoCard
         image={beton1.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={beton2.src}
-        imageStyle="w-[500px] h-[350px] ml-auto"
+        imageStyle={infoCardStyle.rightImage}
         imageLocation="right"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={beton3.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />

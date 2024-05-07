@@ -9,7 +9,7 @@ const MainImg = () => {
     appearing();
   });
   return (
-    <div className="element-animation xl:w-[1200px] relative xl:h-[550px] lg:h-[400px] md:h-[250px]">
+    <div className="element-animation relative xl:w-[1200px] xl:h-[550px] lg:h-[400px] md:h-[250px]">
       <img
         src={mainPageImage.src}
         className="absolute  xl:pt-0 w-full xl:h-[600px] lg:h-[400px] sm:h-[250px]"

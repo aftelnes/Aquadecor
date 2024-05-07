@@ -8,6 +8,7 @@ import polypropylene3 from "../../../../public/images/Pages/polypropylene_pools/
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
 
 const SkimmerPolypropylenePools = () => {
   useEffect(() => {
@@ -20,19 +21,19 @@ const SkimmerPolypropylenePools = () => {
 
       <InfoCard
         image={polypropylene1.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={polypropylene2.src}
-        imageStyle="w-[500px] h-[350px] ml-auto"
+        imageStyle={infoCardStyle.rightImage}
         imageLocation="right"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={polypropylene3.src}
-        imageStyle="w-[500px] h-[350px]"
+        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />
