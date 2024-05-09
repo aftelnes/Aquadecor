@@ -10,8 +10,9 @@ const InfoBlockInPage = ({ img, header, text }: EquipmentItemProps) => {
   return (
     <div
       className="relative element-animation shadow-2xl shadow-grey-300 hover:shadow-cyan-300 rounded flex m-auto mb-6
-      xl:w-[1100px] xl:h-[200px]  
-    lg:w-[700px] lg:h-[200px]"
+      xl:w-[1000px] xl:h-[200px]  
+      lg:w-[850px] lg:h-[200px]
+      md:w-[700px] md:h-[200px]"
     >
       <img
         className="hover:scale-105 transition duration-700 delay-150 ease-in-out w-[300px] h-[200px] rounded lg:w-"

@@ -8,7 +8,7 @@ import film3 from "../../../../public/images/Pages/film_pools/film3.jpg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
-import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
+import infoCardStyle from "../../../../styles/infoCardStyles/infoCardStyles";
 
 const OverflowFilmsPools = () => {
   useEffect(() => {

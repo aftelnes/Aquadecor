@@ -2,21 +2,23 @@
 import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
+import sectionStyle from "@/styles/sectionStyle/sectionStyle";
 
 const div: string =
-  "text-2xl element-animation m-auto mt-5 h-20 rounded shadow-xl shadow-gray-300 w-2/3 pt-4";
-const p: string = "text-center";
+  "element-animation m-auto rounded shadow-xl shadow-gray-300\
+   xl:pt-4 xl:h-[80px] xl:w-[800px]\
+   lg:pt-4 lg:h-[60px] lg:w-[600px]\
+   md:pt-4 md:h-[60px] md:w-[500px]";
+const p: string = "text-center xl:text-2xl lg:text-lg";
 
 const Contacts = () => {
   useEffect(() => {
     appearing();
   });
   return (
-    <div className="block w-full mt-1 m-auto mb-11 bg-mainColor pt-5 sm:w-full md:container lg:container xl:container">
-      <hr className="border-1 border-black" />
-      <h1 className="text-animation m-auto text-center mt-5 text-4xl">
-        Контакты
-      </h1>
+    <div className={sectionStyle.sectionStyle}>
+      <hr className={sectionStyle.sectionHr} />
+      <h1 className={sectionStyle.sectionH1}>Контакты</h1>
       <div className={div}>
         <p className={p}>Наш адрес: г. Краснодар ул.Уличная д.120</p>
       </div>

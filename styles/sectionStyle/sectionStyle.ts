@@ -6,8 +6,10 @@ type SectionStyle = {
 
 const sectionStyle: SectionStyle = {
   sectionStyle:
-    "block w-full  mt-1 m-auto bg-mainColor pt-5 sm:w-full md:container lg:container xl:container mb-11",
-  sectionHr: "border-1 border-black",
-  sectionH1: "text-animation mt-11 text-center xl:text-5xl lg:text-4xl",
+    "block w-full  mt-1 m-auto pt-5 xl:w-[1200px] lg:container mb-11 sm:w-full",
+  sectionHr:
+    "border-1 border-black m-auto xl:w-[1200px] lg:container md:container",
+  sectionH1:
+    "text-animation mt-11 text-center xl:text-4xl lg:text-3xl md:text-3xl",
 };
 export default sectionStyle;
