@@ -9,20 +9,31 @@ type EquipmentItemProps = {
 const InfoBlockInPage = ({ img, header, text }: EquipmentItemProps) => {
   return (
     <div
-      className="relative element-animation shadow-2xl shadow-grey-300 hover:shadow-cyan-300 rounded flex m-auto mb-6
-      xl:w-[1000px] xl:h-[200px]  
-      lg:w-[850px] lg:h-[200px]
-      md:w-[700px] md:h-[200px]"
+      className="relative element-animation shadow-2xl shadow-grey-300 hover:shadow-cyan-300 rounded flex m-auto mt-5 mb-5
+      xl:w-[900px] xl:h-[200px]
+      lg:w-[800px] lg:h-[200px]
+      md:w-[650px] md:h-[200px]"
     >
       <img
-        className="hover:scale-105 transition duration-700 delay-150 ease-in-out w-[300px] h-[200px] rounded lg:w-"
+        className="hover:scale-105 transition duration-700 delay-150 ease-in-out rounded
+        xl:w-[300px] xl:h-[200px]
+        lg:w-[300px] lg:h-[200px] 
+        md:w-[270px] md:h-[200px]"
         src={img}
       />
       <div className="ml-2 mt-2 mb-2">
-        <h1 className="text-2xl mb-1 ">{header}</h1>
-        <div className="w-[400]">{text}</div>
-        <div className="text-right absolute mr-10 rounded-full bg-cyan-300 pr-3 pl-3 right-0 bottom-0 mb-5">
-          <p>100 000p</p>
+        <h1 className="font-medium xl:text-2xl xl:mb-1 lg:text-xl lg:mb-1 md:text-lg md:mb-0.5">
+          {header}
+        </h1>
+        <div
+          className="xl:w-[580px] xl:h-[120px] xl:text-lg 
+        lg:w-[480px] lg:h-[120px] lg:text-base 
+        md:w-[360px] md:h-[120px] md:text-sm"
+        >
+          {text}
+        </div>
+        <div className="text-right w-[110px] ml-auto rounded-full bg-cyan-300 mb-5 mr-2">
+          <p className="text-center">от 100 000p</p>
         </div>
       </div>
     </div>

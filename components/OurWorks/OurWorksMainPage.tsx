@@ -23,9 +23,9 @@ const OurWorksMainPage = () => {
 
   return (
     <div
-      className="element-animation 
-    xl:h-[900px] xl:w-[1200px]
-    lg:h-[600px]
+      className="element-animation m-auto
+    xl:h-[700px] xl:w-[1200px]
+    lg:h-[550px]
     md:h-[400px]
     "
     >

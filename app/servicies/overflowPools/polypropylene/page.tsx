@@ -8,7 +8,6 @@ import polypropylene3 from "../../../../public/images/Pages/polypropylene_pools/
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
-import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
 
 const OverflowPolypropylenePools = () => {
   useEffect(() => {
@@ -21,19 +20,16 @@ const OverflowPolypropylenePools = () => {
 
       <InfoCard
         image={polypropylene1.src}
-        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={polypropylene2.src}
-        imageStyle={infoCardStyle.rightImage}
         imageLocation="right"
         imageAlt="Бассейн"
       />
       <InfoCard
         image={polypropylene3.src}
-        imageStyle={infoCardStyle.leftImage}
         imageLocation="left"
         imageAlt="Бассейн"
       />

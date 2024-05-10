@@ -18,8 +18,8 @@ const Offers = () => {
   });
 
   return (
-    <div className="element-animation h-auto xl:w-[1200px]">
-      <h1 className="text-animation xl:text-5xl xl:pt-10 lg:text-4xl md:text-3xl">
+    <div className="element-animation h-auto m-auto xl:w-[1200px] xl:mt-20 lg:mt-10 md:mt-8">
+      <h1 className="text-animation xl:text-5xl xl:mb-16 lg:mb-12 lg:text-4xl md:text-3xl md:mb-10">
         Мы предлагаем
       </h1>
       <div className="element-animation lg:flex lg:justify-between md:flex md:justify-between">

@@ -14,11 +14,11 @@ const WorkingWithUs = () => {
     appearing();
   });
   return (
-    <div className="element-animation h-auto xl:w-[1200px]">
-      <h1 className="text-animation xl:text-5xl lg:text-4xl md:text-3xl">
+    <div className="element-animation h-auto m-auto xl:w-[1200px] xl:mt-20 lg:mt-10 md:mt-8">
+      <h1 className="text-animation xl:text-5xl xl:mb-16 lg:mb-12 lg:text-4xl md:text-3xl md:mb-10">
         Работая с нами вы получите
       </h1>
-      <div className="grid gap-2 grid-cols-2 grid-rows-2">
+      <div className="grid gap-2 grid-cols-2 grid-rows-1">
         <WorkingWithUsItem
           text="Мы рассчитаем за вас все расходы. А так же поможем выбрать лучший вариант"
           header={"Бесплатный расчёт"}
@@ -29,6 +29,8 @@ const WorkingWithUs = () => {
           header={"Долгосрочную гарантию"}
           img={guarant.src}
         />
+      </div>
+      <div className="grid gap-2 grid-cols-2 grid-rows-1 mt-6">
         <WorkingWithUsItem
           text="Вы сможете узнать всю необходиму информцию в любой момент времени"
           header={"Контроль качества и услуг"}

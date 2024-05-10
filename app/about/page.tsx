@@ -41,7 +41,7 @@ const AboutUs = () => {
           className="absolute text-white mt-20 
         xl:text-3xl xl:w-[900px] xl:ml-[150px]
         lg:text-2xl lg:w-[800px] lg:ml-[50px]
-        md:text-xl md:w-[700px] md:ml-[50px]
+        md:text-xl md:w-[650px] md:ml-[50px]
         "
         >
           Мы уже много лет занимаемся строительством бассейнов под ключ, а так

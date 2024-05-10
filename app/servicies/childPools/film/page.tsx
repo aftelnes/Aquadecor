@@ -8,7 +8,6 @@ import film3 from "../../../../public/images/Pages/film_pools/film3.jpg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
-import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
 
 const ChildFilmsPools = () => {
   useEffect(() => {
@@ -19,24 +18,9 @@ const ChildFilmsPools = () => {
       <hr className={pageStyle.pageHr} />
       <h1 className={pageStyle.pageH1}>Плёночные бассейны</h1>
 
-      <InfoCard
-        image={film1.src}
-        imageStyle={infoCardStyle.leftImage}
-        imageLocation="left"
-        imageAlt="Бассейн"
-      />
-      <InfoCard
-        image={film2.src}
-        imageStyle={infoCardStyle.rightImage}
-        imageLocation="right"
-        imageAlt="Бассейн"
-      />
-      <InfoCard
-        image={film3.src}
-        imageStyle={infoCardStyle.leftImage}
-        imageLocation="left"
-        imageAlt="Бассейн"
-      />
+      <InfoCard image={film1.src} imageLocation="left" imageAlt="Бассейн" />
+      <InfoCard image={film2.src} imageLocation="right" imageAlt="Бассейн" />
+      <InfoCard image={film3.src} imageLocation="left" imageAlt="Бассейн" />
     </div>
   );
 };

@@ -18,24 +18,9 @@ const Pumps = () => {
       <hr className={pageStyle.pageHr} />
       <h1 className={pageStyle.pageH1}>Насосы для бассейна</h1>
 
-      <InfoCard
-        image={pump.src}
-        imageStyle="w-[500px] h-[350px]"
-        imageLocation="left"
-        imageAlt="Насос"
-      />
-      <InfoCard
-        image={pump2.src}
-        imageStyle="w-[500px] h-[350px] ml-auto"
-        imageLocation="right"
-        imageAlt="Насос"
-      />
-      <InfoCard
-        image={pump3.src}
-        imageStyle="w-[500px] h-[350px]"
-        imageLocation="left"
-        imageAlt="Насос"
-      />
+      <InfoCard image={pump.src} imageLocation="left" imageAlt="Насос" />
+      <InfoCard image={pump2.src} imageLocation="right" imageAlt="Насос" />
+      <InfoCard image={pump3.src} imageLocation="left" imageAlt="Насос" />
     </div>
   );
 };

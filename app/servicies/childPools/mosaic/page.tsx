@@ -8,7 +8,6 @@ import mosaic3 from "../../../../public/images/Pages/mosaic/mosaic3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
-import infoCardStyle from "@/styles/infoCardStyles/infoCardStyles";
 
 const ChildMosaicPools = () => {
   useEffect(() => {
@@ -19,24 +18,9 @@ const ChildMosaicPools = () => {
       <hr className={pageStyle.pageHr} />
       <h1 className={pageStyle.pageH1}>Мозаичные бассейны</h1>
 
-      <InfoCard
-        image={mosaic1.src}
-        imageStyle={infoCardStyle.leftImage}
-        imageLocation="left"
-        imageAlt="Бассейн"
-      />
-      <InfoCard
-        image={mosaic2.src}
-        imageStyle={infoCardStyle.rightImage}
-        imageLocation="right"
-        imageAlt="Бассейн"
-      />
-      <InfoCard
-        image={mosaic3.src}
-        imageStyle={infoCardStyle.leftImage}
-        imageLocation="left"
-        imageAlt="Бассейн"
-      />
+      <InfoCard image={mosaic1.src} imageLocation="left" imageAlt="Бассейн" />
+      <InfoCard image={mosaic2.src} imageLocation="right" imageAlt="Бассейн" />
+      <InfoCard image={mosaic3.src} imageLocation="left" imageAlt="Бассейн" />
     </div>
   );
 };
