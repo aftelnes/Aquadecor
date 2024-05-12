@@ -9,7 +9,7 @@ const InfoCard = ({ image, imageLocation, imageAlt }: InfoCardProps) => {
     <>
       {imageLocation == "left" ? (
         <div
-          className="element-animation flex mb-5 shadow-2xl shadow-gray-300 mb-10 mt-10 m-auto
+          className="element-animation flex shadow-2xl shadow-gray-300 m-auto mb-5 mt-5
         xl:w-[900px] xl:h-[300px] 
         lg:w-[800px] lg:h-[300px]
         md:w-[700px] md:h-[250px]"
@@ -23,7 +23,7 @@ const InfoCard = ({ image, imageLocation, imageAlt }: InfoCardProps) => {
         </div>
       ) : (
         <div
-          className="element-animation flex mb-5 shadow-2xl shadow-gray-300 mb-10 mt-10 m-auto
+          className="element-animation flex mb-5 shadow-2xl shadow-gray-300 m-auto mb-5 mt-5
         xl:w-[900px] xl:h-[300px]
         lg:w-[800px] lg:h-[300px]
         md:w-[700px] md:h-[250px]"

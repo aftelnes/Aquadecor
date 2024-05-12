@@ -7,7 +7,7 @@ import polypropylene from "../../../public/images/Pages/polypropylene_pools/poly
 import film from "../../../public/images/Pages/film_pools/film1.jpg";
 import mosaic from "../../../public/images/Pages/mosaic/mosaic1.jpg";
 
-import sectionStyle from "@/styles/sectionStyle/sectionStyle";
+import pageStyle from "@/styles/pageStyles/pageStyle";
 
 import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
 import appearing from "@/tools/appearing";
@@ -20,9 +20,9 @@ const ChildPools = () => {
   });
 
   return (
-    <div className={sectionStyle.sectionStyle}>
-      <hr className={sectionStyle.sectionHr} />
-      <h1 className={sectionStyle.sectionH1}>Детские бассейны</h1>
+    <div className={pageStyle.pageStyle}>
+      <hr className={pageStyle.pageHr} />
+      <h1 className={pageStyle.pageH1}>Детские бассейны</h1>
 
       <Link href="/servicies/childPools/polypropylene">
         <InfoBlockInPage

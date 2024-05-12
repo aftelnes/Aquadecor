@@ -7,19 +7,19 @@ import polypropylene from "../../../public/images/Pages/polypropylene_pools/poly
 import film from "../../../public/images/Pages/film_pools/film1.jpg";
 import mosaic from "../../../public/images/Pages/mosaic/mosaic1.jpg";
 
-import sectionStyle from "@/styles/sectionStyle/sectionStyle";
-
 import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
 import appearing from "@/tools/appearing";
+
+import pageStyle from "@/styles/pageStyles/pageStyle";
 
 const OverflowPools = () => {
   useEffect(() => {
     appearing();
   });
   return (
-    <div className={sectionStyle.sectionStyle}>
-      <hr className={sectionStyle.sectionHr} />
-      <h1 className={sectionStyle.sectionH1}>Перелевные бассейны</h1>
+    <div className={pageStyle.pageStyle}>
+      <hr className={pageStyle.pageHr} />
+      <h1 className={pageStyle.pageH1}>Перелевные бассейны</h1>
 
       <Link href="/servicies/overflowPools/polypropylene">
         <InfoBlockInPage
