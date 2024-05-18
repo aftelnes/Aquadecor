@@ -15,14 +15,14 @@ const WorkingWithUsItem = ({ text, header, img }: WorkingWithUsItemProps) => {
   });
   return (
     <div
-      className="element-animation flex m-auto rounded shadow-xl shadow-gray-300 
+      className="element-animation flex m-auto mb-3 rounded shadow-xl w-64 shadow-gray-300
     xl:w-[550px] xl:h-[200px]  
     lg:w-[500px] lg:h-[150px]
     md:w-[350px] md:h-[105px]
     "
     >
       <img
-        className="ml-2 
+        className="ml-2 w-[0px] h-[0px]
       xl:w-[150px] xl:h-[150px] xl:mt-6
       lg:w-[120px] lg:h-[120px] lg:mt-3
       md:w-[90px] md:h-[90px] md:mt-1

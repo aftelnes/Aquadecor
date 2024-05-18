@@ -4,20 +4,15 @@ import { useEffect } from "react";
 import main_img from "../../public/images/about_us_main_img.jpg";
 import appearing from "@/tools/appearing";
 
-import sectionStyle from "@/styles/sectionStyle/sectionStyle";
+import pageStyle from "@/styles/pageStyles/pageStyle";
 
 const AboutUs = () => {
   useEffect(() => {
     appearing();
   });
   return (
-    <div
-      className="block w-full mt-1 m-auto pt-5 xl:w-[1200px] 
-    lg:container lg:mb-10
-    md:container md:mb-10
-    sm:w-full  "
-    >
-      <hr className={sectionStyle.sectionHr} />
+    <div className={pageStyle.pageStyle}>
+      <hr className={pageStyle.pageHr} />
       <div
         className="relative element-animation shadow-xl shadow-grey-300
       xl:h-[600px]

@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 
-import sectionStyle from "@/styles/sectionStyle/sectionStyle";
 import img1 from "../../public/images/our_works/img1.jpeg";
 import img2 from "../../public/images/our_works/img2.jpg";
 import img3 from "../../public/images/our_works/img3.jpg";
@@ -15,14 +14,15 @@ import img10 from "../../public/images/our_works/img10.jpg";
 
 import appearing from "@/tools/appearing";
 import OurWorksBlock from "@/components/OurWorks/OurWorksBlock";
+import pageStyle from "@/styles/pageStyles/pageStyle";
 
 const OurWorksPage = () => {
   useEffect(() => {
     appearing();
   });
   return (
-    <div className={sectionStyle.sectionStyle}>
-      <hr className={sectionStyle.sectionHr} />
+    <div className={pageStyle.pageStyle}>
+      <hr className={pageStyle.pageHr} />
       <OurWorksBlock
         images={[
           img1.src,

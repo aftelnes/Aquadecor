@@ -1,11 +1,11 @@
 import { MantineProvider } from "@mantine/core";
-import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import "@mantine/core/styles.css";
 
+import "./globals.css";
 import "./animation.css";
 
-import "@mantine/core/styles.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         <MantineProvider>
           <Header />
           <main>{children}</main>
-          <Footer />
+          {/* <Footer /> */}
         </MantineProvider>
       </body>
     </html>

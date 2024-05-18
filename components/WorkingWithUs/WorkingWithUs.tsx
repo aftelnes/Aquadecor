@@ -14,11 +14,20 @@ const WorkingWithUs = () => {
     appearing();
   });
   return (
-    <div className="element-animation h-auto m-auto xl:w-[1200px] xl:mt-20 lg:mt-10 md:mt-8">
-      <h1 className="text-animation xl:text-5xl xl:mb-16 lg:mb-12 lg:text-4xl md:text-3xl md:mb-10">
+    <div className="element-animation h-auto container m-auto xl:w-[1200px] xl:mt-20 lg:mt-10 md:mt-8">
+      <h1
+        className="text-animation text-2xl w-[300px] m-auto mt-5 mb-2 
+      xl:text-5xl xl:mb-16 xl:container
+      lg:mb-12 lg:text-4xl lg:container
+      md:text-3xl md:mb-10 md:container"
+      >
         Работая с нами вы получите
       </h1>
-      <div className="grid gap-2 grid-cols-2 grid-rows-1">
+      <div
+        className="xl:grid xl:gap-2 xl:grid-cols-2 xl:grid-rows-1 
+      lg:grid lg:gap-2 lg:grid-cols-2 lg:grid-rows-1 
+      md:grid md:gap-2 md:grid-cols-2 md:grid-rows-1"
+      >
         <WorkingWithUsItem
           text="Мы рассчитаем за вас все расходы. А так же поможем выбрать лучший вариант"
           header={"Бесплатный расчёт"}
@@ -30,7 +39,11 @@ const WorkingWithUs = () => {
           img={guarant.src}
         />
       </div>
-      <div className="grid gap-2 grid-cols-2 grid-rows-1 mt-6">
+      <div
+        className="xl:grid xl:gap-2 xl:grid-cols-2 xl:grid-rows-1 xl:mt-6
+      lg:grid lg:gap-2 lg:grid-cols-2 lg:grid-rows-1 lg:mt-6
+      md:grid md:gap-2 md:grid-cols-2 md:grid-rows-1 md:mt-6"
+      >
         <WorkingWithUsItem
           text="Вы сможете узнать всю необходиму информцию в любой момент времени"
           header={"Контроль качества и услуг"}

@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
-import sectionStyle from "@/styles/sectionStyle/sectionStyle";
+import pageStyle from "@/styles/pageStyles/pageStyle";
 
 const div: string =
   "element-animation m-auto rounded shadow-xl shadow-gray-300\
@@ -16,9 +16,9 @@ const Contacts = () => {
     appearing();
   });
   return (
-    <div className={sectionStyle.sectionStyle}>
-      <hr className={sectionStyle.sectionHr} />
-      <h1 className={sectionStyle.sectionH1}>Контакты</h1>
+    <div className={pageStyle.pageStyle}>
+      <hr className={pageStyle.pageHr} />
+      <h1 className={pageStyle.pageH1}>Контакты</h1>
       <div className={div}>
         <p className={p}>Наш адрес: г. Краснодар ул.Уличная д.120</p>
       </div>
