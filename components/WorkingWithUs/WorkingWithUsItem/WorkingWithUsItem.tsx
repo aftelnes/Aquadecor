@@ -15,7 +15,7 @@ const WorkingWithUsItem = ({ text, header, img }: WorkingWithUsItemProps) => {
   });
   return (
     <div
-      className="element-animation flex m-auto mb-3 rounded shadow-xl w-64 shadow-gray-300
+      className="element-animation flex m-auto mb-5 rounded shadow-xl w-64 shadow-gray-300
     xl:w-[550px] xl:h-[200px]  
     lg:w-[500px] lg:h-[150px]
     md:w-[350px] md:h-[105px]

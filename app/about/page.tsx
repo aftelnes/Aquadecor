@@ -14,16 +14,16 @@ const AboutUs = () => {
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
       <div
-        className="relative element-animation shadow-xl shadow-grey-300
+        className="relative element-animation shadow-xl shadow-grey-300 container mb-10 m-auto
       xl:h-[600px]
       lg:h-[450px]
       md:h-[400px]"
       >
         <img
           src={main_img.src}
-          className="absolute shadow-xl shadow-grey-300 
+          className="absolute shadow-xl
           xl:h-[600px] xl:w-full 
-          lg:h-[450px] lg:w-full
+          lg:h-[450px] lg:w-full 
           md:h-[400px] md:w-full"
         />
         <div

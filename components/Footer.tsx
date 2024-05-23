@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="mt-2">
       <hr className="border-1 border-black" />
       <div
         className="flex justify-center w-full h-64 mt-1 m-auto w-[200px] pt-5
@@ -26,7 +26,7 @@ const Footer = () => {
             Аквадекор
           </h1>
           <div
-            className="grid grid-rows-7 grid-flow-col gap-0.5
+            className="grid grid-rows-6 grid-flow-col gap-0.5
         xl:w-[200px]"
           >
             <h3 className="m-auto pt-2 font-semibold">Бассейны</h3>
@@ -46,13 +46,12 @@ const Footer = () => {
             <Link href="/servicies/childPools" className="pl-2 hover:underline">
               Детские
             </Link>
-            <hr className="border-1 border-black m-auto w-11/12" />
             <Link href="/equipments" className="pl-2 hover:underline">
               Оборудование
             </Link>
           </div>
           <div
-            className="grid grid-rows-7 grid-flow-col gap-0.5
+            className="grid grid-rows-6 grid-flow-col gap-0.5
         xl:w-[200px]"
           >
             <h3 className="m-auto pt-2 font-semibold">Изготовление</h3>
@@ -77,7 +76,7 @@ const Footer = () => {
             </Link>
           </div>
           <div
-            className="grid grid-rows-7 grid-flow-col gap-0.5
+            className="grid grid-rows-6 grid-flow-col gap-0.5
         xl:w-[200px]"
           >
             <h3 className="m-auto pt-2 font-semibold">Другое</h3>
