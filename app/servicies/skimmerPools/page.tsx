@@ -28,29 +28,28 @@ const SkimmerPools = () => {
         <InfoBlockInPage
           img={polypropylene.src}
           header="Полипропилен"
-          text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptas quis eum ex obcaecati eos vitae accusantium ab? Adipisci optio dolores possimus animi ipsum illo debitis quaerat accusantium ratione recusandae."
+          text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptas quis eum ex obcaecati eos vitae accusantium "
         />
       </Link>
       <Link href="/servicies/skimmerPools/concrete">
         <InfoBlockInPage
           img={concrete.src}
           header="Бетонные"
-          text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam obcaecati vitae quasi nemo? Assumenda corporis, rerum dolorum magnam vitae labore laudantium sequi sed est dolor at quia iusto eaque repellendus?"
+          text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam obcaecati vitae quasi nemo? Assumenda corpori"
         />
       </Link>
       <Link href="/servicies/skimmerPools/film">
         <InfoBlockInPage
           img={film.src}
           header="Плёночные"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi mollitia quisquam quibusdam a architecto id minus. Minima esse hic, excepturi minus ipsam error quia temporibus tempore dignissimos similique consectetur.
-"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi mollitia quisquam quibusdam a architecto id minus. Min"
         />
       </Link>
       <Link href="/servicies/skimmerPools/mosaic">
         <InfoBlockInPage
           img={mosaic.src}
           header="Мозаика"
-          text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae id dolore delectus totam nostrum explicabo vitae optio! Quidem quasi, ea nemo quibusdam modi dolores incidunt nobis corporis doloremque accusamus sint."
+          text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae id dolore delectus totam nostrum explicabo vitae op"
         />
       </Link>
     </div>

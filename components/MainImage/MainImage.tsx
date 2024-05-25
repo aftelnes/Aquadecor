@@ -12,8 +12,8 @@ const MainImg = () => {
     <div
       className="element-animation h-[180px] relative m-auto w-[340px]
     xl:w-[1200px] xl:h-[600px] 
-    lg:h-[400px] 
-    md:h-[270px]
+    lg:h-[400px] lg:w-full
+    md:h-[270px] md:w-full
     sm:h-[200px]
     "
     >
