@@ -8,10 +8,12 @@ import film3 from "../../../../public/images/Pages/film_pools/film3.jpg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import createMetadata from "@/tools/createMetadata";
 
 const OverflowFilmsPools = () => {
   useEffect(() => {
     appearing();
+    createMetadata({ text: "Перелевные плёночные бассейны" });
   });
   return (
     <div className={pageStyle.pageStyle}>

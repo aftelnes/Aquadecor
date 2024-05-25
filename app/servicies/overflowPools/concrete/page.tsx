@@ -8,10 +8,12 @@ import beton3 from "../../../../public/images/Pages/concrete_pools/beton3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import createMetadata from "@/tools/createMetadata";
 
 const OverflowConcretePools = () => {
   useEffect(() => {
     appearing();
+    createMetadata({ text: "Перелевные бетонные бассейы" });
   });
   return (
     <div className={pageStyle.pageStyle}>

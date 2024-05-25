@@ -8,10 +8,12 @@ import pageStyle from "@/styles/pageStyles/pageStyle";
 
 import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
 import appearing from "@/tools/appearing";
+import createMetadata from "@/tools/createMetadata";
 
 const Equipments = () => {
   useEffect(() => {
     appearing();
+    createMetadata({ text: "Оборудование для бассейнов" });
   });
   return (
     <div className={pageStyle.pageStyle}>

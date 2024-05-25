@@ -8,10 +8,12 @@ import polypropylene3 from "../../../../public/images/Pages/polypropylene_pools/
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import createMetadata from "@/tools/createMetadata";
 
 const SkimmerPolypropylenePools = () => {
   useEffect(() => {
     appearing();
+    createMetadata({ text: "Скиммерные полпропиленовые бассейны" });
   });
   return (
     <div className={pageStyle.pageStyle}>

@@ -8,10 +8,12 @@ import mosaic3 from "../../../../public/images/Pages/mosaic/mosaic3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import createMetadata from "@/tools/createMetadata";
 
 const ChildMosaicPools = () => {
   useEffect(() => {
     appearing();
+    createMetadata({ text: "Детские мозаичные бассейны" });
   });
   return (
     <div className={pageStyle.pageStyle}>

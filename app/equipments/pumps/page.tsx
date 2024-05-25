@@ -1,17 +1,19 @@
 "use client";
 import { useEffect } from "react";
 
-import appearing from "@/tools/appearing";
 import pump from "../../../public/images/Pages/pumps/pump.jpg";
 import pump2 from "../../../public/images/Pages/pumps/pump2.jpg";
 import pump3 from "../../../public/images/Pages/pumps/pump3.jpeg";
-import InfoCard from "@/components/InfoBlock/InfoCard";
 
+import appearing from "@/tools/appearing";
+import InfoCard from "@/components/InfoBlock/InfoCard";
 import pageStyle from "@/styles/pageStyles/pageStyle";
+import createMetadata from "@/tools/createMetadata";
 
 const Pumps = () => {
   useEffect(() => {
     appearing();
+    createMetadata({ text: "Насосы для бассейны" });
   });
   return (
     <div className={pageStyle.pageStyle}>

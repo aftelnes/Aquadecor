@@ -13,7 +13,7 @@ import pageStyle from "@/styles/pageStyles/pageStyle";
 const SkimmerConcretePools = () => {
   useEffect(() => {
     appearing();
-    createMetadata({ text: "Бетонные скиммерные бассейны" });
+    createMetadata({ text: "Скиммерные бетонные бассейны" });
   });
   return (
     <div className={pageStyle.pageStyle}>
