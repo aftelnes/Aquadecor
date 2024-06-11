@@ -81,19 +81,13 @@ const Footer = () => {
           >
             <h3 className="m-auto pt-2 font-semibold">Другое</h3>
             <hr className="border-1 border-black m-auto w-11/12" />
-            <Link
-              href="/servicies/overflowPools"
-              className="pl-2 hover:underline"
-            >
+            <Link href="/contacts" className="pl-2 hover:underline">
               Контакты
             </Link>
-            <Link
-              href="/servicies/skimmerPools"
-              className="pl-2 hover:underline"
-            >
+            <Link href="/about" className="pl-2 hover:underline">
               Про нас
             </Link>
-            <Link href="/servicies/childPools" className="pl-2 hover:underline">
+            <Link href="/ourworks" className="pl-2 hover:underline">
               Наши работы
             </Link>
           </div>

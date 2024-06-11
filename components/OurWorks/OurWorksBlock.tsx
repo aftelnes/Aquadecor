@@ -29,7 +29,7 @@ const OurWorksBlock = ({ images, header }: OurWorksProps) => {
       "
       >
         {images.map((item) => (
-          <img src={item} className={imgStyle} />
+          <img src={item} className={imgStyle} key={item} />
         ))}
       </div>
     </div>

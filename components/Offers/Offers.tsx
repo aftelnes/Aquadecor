@@ -1,16 +1,16 @@
 "use client";
 import { useEffect } from "react";
 
+import InfoBlockMainPge from "../InfoBlock/InfoBlockMainPage";
+import appearing from "@/tools/appearing";
+import Link from "next/link";
+
 import buildPool from "../../public/images/build_pool.jpg";
 import createPool from "../../public/images/create_pool.jpeg";
 import polypropilen from "../../public/images/polypropylene.jpeg";
 import pump from "../../public/images/pump.jpg";
 import poolStation from "../../public/images/pool_station.jpg";
 import font from "../../public/images/font.jpg";
-
-import InfoBlockMainPge from "../InfoBlock/InfoBlockMainPage";
-import appearing from "@/tools/appearing";
-import Link from "next/link";
 
 const Offers = () => {
   useEffect(() => {
