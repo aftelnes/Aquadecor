@@ -25,8 +25,8 @@ const Offers = () => {
       <div className="element-animation flex flex-col items-center xl:flex-row lg:flex lg:flex-row lg:justify-between md:flex-row md:flex md:justify-between">
         <Link href="/servicies/overflowPools">
           <InfoBlockMainPge
-            textHeader="Перелевные бассейны"
-            textDesc="Перелевные бассейны"
+            textHeader="Переливные бассейны"
+            textDesc="Переливные бассейны"
             cost={"от 237 000"}
             imgSrc={buildPool.src}
           />
@@ -38,8 +38,8 @@ const Offers = () => {
           imgSrc={createPool.src}
         />
         <InfoBlockMainPge
-          textHeader="Детсие бассейны"
-          textDesc="Детсие бассейны"
+          textHeader="Детские бассейны"
+          textDesc="Детские бассейны"
           cost={"от 100 000"}
           imgSrc={poolStation.src}
         />

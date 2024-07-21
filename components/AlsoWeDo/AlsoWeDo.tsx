@@ -20,7 +20,7 @@ const AlsoWeDo = () => {
       </h1>
       <div className="element-animation flex flex-col items-center xl:flex-row lg:flex lg:flex-row lg:justify-between md:flex-row md:flex md:justify-between">
         <InfoBlockMainPage
-          textHeader="Оттеделка бассейнов"
+          textHeader="Монтаж системы вентиляции"
           textDesc="Материал - бетон, лайнер"
           cost={"от 37 000"}
           imgSrc={otdelka.src}
@@ -33,7 +33,7 @@ const AlsoWeDo = () => {
         />
         <InfoBlockMainPage
           textHeader="Ремонт бассейнов"
-          textDesc="Ремонт бассейнов"
+          textDesc="Ремонт бассейнов и модернизация"
           cost={"от 15 000"}
           imgSrc={remont.src}
         />

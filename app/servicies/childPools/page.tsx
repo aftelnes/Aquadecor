@@ -31,8 +31,8 @@ const ChildPools = () => {
           text="текст"
         />
       </Link>
-      <Link href="/servicies/childPools/concrete">
-        <InfoBlockInPage img={concrete.src} header="Бетонные" text="текст" />
+      <Link href="/servicies/childPools/composite">
+        <InfoBlockInPage img={concrete.src} header="Композитные" text="текст" />
       </Link>
       <Link href="/servicies/childPools/film">
         <InfoBlockInPage img={film.src} header="Плёночные" text="текст" />

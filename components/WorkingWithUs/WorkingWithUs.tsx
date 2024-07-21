@@ -55,6 +55,22 @@ const WorkingWithUs = () => {
           img={low_const.src}
         />
       </div>
+      <div
+        className="xl:grid xl:gap-2 xl:grid-cols-2 xl:grid-rows-1 xl:mt-6
+      lg:grid lg:gap-2 lg:grid-cols-2 lg:grid-rows-1 lg:mt-6
+      md:grid md:gap-2 md:grid-cols-2 md:grid-rows-1 md:mt-6"
+      >
+        <WorkingWithUsItem
+          text="Вы сможете узнать всю необходиму информцию в любой момент времени"
+          header={"Выполнение задач в кратчайший срок"}
+          img={quality_control.src}
+        />
+        <WorkingWithUsItem
+          text="С 8:00 утра и до 18:00 вечера"
+          header={"Техподдержку"}
+          img={low_const.src}
+        />
+      </div>
     </div>
   );
 };

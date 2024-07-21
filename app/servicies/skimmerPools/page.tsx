@@ -31,10 +31,10 @@ const SkimmerPools = () => {
           text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptas quis eum ex obcaecati eos vitae accusantium "
         />
       </Link>
-      <Link href="/servicies/skimmerPools/concrete">
+      <Link href="/servicies/skimmerPools/composite">
         <InfoBlockInPage
           img={concrete.src}
-          header="Бетонные"
+          header="Композитные"
           text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam obcaecati vitae quasi nemo? Assumenda corpori"
         />
       </Link>

@@ -32,7 +32,7 @@ const Header = () => {
           <Menu.Dropdown>
             <Menu.Label>Бассейны</Menu.Label>
             <Menu.Item>
-              <Link href="/servicies/overflowPools">Бассейны перелевные</Link>
+              <Link href="/servicies/overflowPools">Бассейны переливные</Link>
             </Menu.Item>
             <Menu.Item>
               <Link href="/servicies/skimmerPools">Бассейны скиммерные</Link>

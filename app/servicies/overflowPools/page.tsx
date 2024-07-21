@@ -28,8 +28,8 @@ const OverflowPools = () => {
           text="текст"
         />
       </Link>
-      <Link href="/servicies/overflowPools/concrete">
-        <InfoBlockInPage img={concrete.src} header="Бетонные" text="текст" />
+      <Link href="/servicies/overflowPools/composite">
+        <InfoBlockInPage img={concrete.src} header="Композитные" text="текст" />
       </Link>
       <Link href="/servicies/overflowPools/film">
         <InfoBlockInPage img={film.src} header="Плёночные" text="текст" />

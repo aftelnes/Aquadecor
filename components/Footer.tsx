@@ -35,7 +35,7 @@ const Footer = () => {
               href="/servicies/overflowPools"
               className="pl-2 hover:underline"
             >
-              Перелевные
+              Переливные
             </Link>
             <Link
               href="/servicies/skimmerPools"

@@ -38,7 +38,7 @@ const InfoBlockInPage = ({ img, header, text }: EquipmentItemProps) => {
           {header}
         </h1>
         <div
-          className="text-xs w-[180px] h-[65px] mb-2
+          className="text-xs w-[180px] h-[65px]
           xl:w-[580px] xl:h-[120px] xl:text-lg 
         lg:w-[480px] lg:h-[120px] lg:text-base 
         md:w-[360px] md:h-[120px] md:text-sm"
@@ -46,7 +46,7 @@ const InfoBlockInPage = ({ img, header, text }: EquipmentItemProps) => {
           {text}
         </div>
         <div
-          className="ml-auto rounded-full bg-cyan-300 w-[90px] mr-1 mb-1
+          className="ml-auto rounded-full bg-cyan-300 w-[90px] mr-1 mb-2
         xl:w-[115px] xl:mb-5 xl:mr-1
         lg:w-[115px] lg:mb-5 lg:mr-1
         md:w-[110px] md:mb-5 md:mr-2"
