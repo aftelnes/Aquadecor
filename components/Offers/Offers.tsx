@@ -26,42 +26,40 @@ const Offers = () => {
         <Link href="/servicies/overflowPools">
           <InfoBlockMainPge
             textHeader="Переливные бассейны"
-            textDesc="Переливные бассейны"
             cost={"от 237 000"}
             imgSrc={buildPool.src}
           />
         </Link>
-        <InfoBlockMainPge
-          textHeader="Скиммерные бассейны"
-          textDesc="Скиммерные бассейны"
-          cost={"от 150 000"}
-          imgSrc={createPool.src}
-        />
-        <InfoBlockMainPge
-          textHeader="Детские бассейны"
-          textDesc="Детские бассейны"
-          cost={"от 100 000"}
-          imgSrc={poolStation.src}
-        />
+        <Link href="/servicies/skimmerPools">
+          <InfoBlockMainPge
+            textHeader="Скиммерные бассейны"
+            cost={"от 150 000"}
+            imgSrc={createPool.src}
+          />
+        </Link>
+        <Link href="/servicies/childPools">
+          <InfoBlockMainPge
+            textHeader="Детские бассейны"
+            cost={"от 100 000"}
+            imgSrc={poolStation.src}
+          />
+        </Link>
       </div>
       <div className="element-animation flex flex-col items-center xl:flex-row lg:flex lg:flex-row lg:justify-between md:flex-row md:flex md:justify-between">
         <Link href="/equipments">
           <InfoBlockMainPge
             textHeader="Оборудование"
-            textDesc="Оборудование"
             cost={"от 15 000"}
             imgSrc={pump.src}
           />
         </Link>
         <InfoBlockMainPge
           textHeader="Ёмкости из полипропилена"
-          textDesc="Ёмкости из полипропилена"
           cost={"от 30 000"}
           imgSrc={polypropilen.src}
         />
         <InfoBlockMainPge
           textHeader="Изготовление купелей"
-          textDesc="Изготовление купелей"
           cost={"от 35 000"}
           imgSrc={font.src}
         />

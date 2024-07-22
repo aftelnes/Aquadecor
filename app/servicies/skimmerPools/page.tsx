@@ -23,6 +23,15 @@ const SkimmerPools = () => {
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
       <h1 className={pageStyle.pageH1}>Скиммерные бассейны</h1>
+      <p className={pageStyle.pageDescription}>
+        <span className={pageStyle.pageColoredTextBlue}>
+          Скиммерные бассейны{" "}
+        </span>
+        - это вид бассейнов, оснащенных устройством для очистки воды. Скиммер -
+        это бак, в который поступает вода. Данные устройства можно установить и
+        на таких бассейнах, в которых заранее не была предусмотрена скиммерная
+        система. Для этого специально существуют навесные и плавающие скиммеры.
+      </p>
 
       <Link href="/servicies/skimmerPools/polypropylene">
         <InfoBlockInPage

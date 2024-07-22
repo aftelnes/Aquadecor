@@ -38,10 +38,10 @@ const InfoBlockInPage = ({ img, header, text }: EquipmentItemProps) => {
           {header}
         </h1>
         <div
-          className="text-xs w-[180px] h-[65px]
-          xl:w-[580px] xl:h-[120px] xl:text-lg 
+          className="text-xs w-[180px] h-[100px]
+          xl:w-[580px] xl:h-[115px] xl:text-lg 
         lg:w-[480px] lg:h-[120px] lg:text-base 
-        md:w-[360px] md:h-[120px] md:text-sm"
+        md:w-[360px] md:h-[125px] md:text-sm"
         >
           {text}
         </div>
@@ -51,7 +51,7 @@ const InfoBlockInPage = ({ img, header, text }: EquipmentItemProps) => {
         lg:w-[115px] lg:mb-5 lg:mr-1
         md:w-[110px] md:mb-5 md:mr-2"
         >
-          <p className="text-center text-xs xl:text-base lg:text-base md:text-sm">
+          <p className="text-center mt-2 text-xs xl:text-base lg:text-base md:text-sm">
             от 100 000p
           </p>
         </div>
