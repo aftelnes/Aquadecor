@@ -19,7 +19,17 @@ const OverflowPools = () => {
   return (
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
-      <h1 className={pageStyle.pageH1}>Перелевные бассейны</h1>
+      <h1 className={pageStyle.pageH1}>Переливные бассейны</h1>
+      <p className={pageStyle.pageDescription}>
+        <span className={pageStyle.pageColoredTextBlue}>
+          Переливные бассейны
+        </span>
+        - это вид бассейнов, в которых для забора и циркуляции воды используется
+        система перелива. Когда вода выливается за борт бассейна, она не
+        растекается повсюду, а попадает в специальные переливные лотки,
+        расположенные по всему периметру чаши бассейна. Далее вода попадает в
+        переливную емкость, которая расположена ниже переливных лотков.
+      </p>
 
       <Link href="/servicies/overflowPools/polypropylene">
         <InfoBlockInPage
