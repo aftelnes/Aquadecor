@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import pic from "../../public/images/Pages/Pumps/pump3.jpeg";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 
 import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
 import appearing from "@/tools/appearing";

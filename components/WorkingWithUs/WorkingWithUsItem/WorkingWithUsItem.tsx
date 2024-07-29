@@ -17,8 +17,8 @@ const WorkingWithUsItem = ({ text, header, img }: WorkingWithUsItemProps) => {
     <div
       className="element-animation flex m-auto mb-5 rounded shadow-xl w-64 shadow-gray-300
     xl:w-[550px] xl:h-[200px]  
-    lg:w-[500px] lg:h-[150px]
-    md:w-[350px] md:h-[105px]
+    lg:w-[500px] lg:h-[170px]
+    md:w-[350px] md:h-[135px]
     "
     >
       <img
@@ -30,16 +30,17 @@ const WorkingWithUsItem = ({ text, header, img }: WorkingWithUsItemProps) => {
         src={img}
       />
       <div
-        className="xl:mt-6 xl:ml-6 
-      lg:mt-3 lg:ml-4
-      md:mt-1 md:ml-2
+        className="
+        xl:mt-6 xl:ml-6 xl:w-[350px] 
+      lg:mt-3 lg:ml-4 lg:w-[350px] lg:pl-[5px]
+      md:mt-1 md:ml-2 md:w-[230px] md:pl-[5px]
       "
       >
         <h1
-          className="font-medium
-          xl:text-2xl xl:mb-4
-        lg:text-xl lg:mb-2
-        md:text-lg md:mb-1
+          className="font-semibold mb-2
+          xl:text-2xl xl:mb-4 xl:font-medium
+        lg:text-xl lg:mb-2 lg:font-medium
+        md:text-lg md:mb-1 md:font-medium
         "
         >
           {header}

@@ -10,7 +10,7 @@ import mosaic from "../../../public/images/Pages/mosaic/mosaic1.jpg";
 import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
 import appearing from "@/tools/appearing";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 
 const OverflowPools = () => {
   useEffect(() => {
@@ -21,13 +21,11 @@ const OverflowPools = () => {
       <hr className={pageStyle.pageHr} />
       <h1 className={pageStyle.pageH1}>Переливные бассейны</h1>
       <p className={pageStyle.pageDescription}>
-        <span className={pageStyle.pageColoredTextBlue}>
-          Переливные бассейны{" "}
-        </span>
-        - это вид бассейнов, в которых для забора и циркуляции воды используется
-        система перелива. Когда вода выливается за борт бассейна, она не
-        растекается повсюду, а попадает в специальные переливные лотки,
-        расположенные по всему периметру чаши бассейна.
+        <span className="text-cyan-500">Переливные бассейны </span>- это вид
+        бассейнов, в которых для забора и циркуляции воды используется система
+        перелива. Когда вода выливается за борт бассейна, она не растекается
+        повсюду, а попадает в специальные переливные лотки, расположенные по
+        всему периметру чаши бассейна.
       </p>
 
       <Link href="/servicies/overflowPools/polypropylene">

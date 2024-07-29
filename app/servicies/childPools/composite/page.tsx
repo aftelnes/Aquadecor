@@ -7,7 +7,7 @@ import beton2 from "../../../../public/images/Pages/concrete_pools/beton2.jpg";
 import beton3 from "../../../../public/images/Pages/concrete_pools/beton3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 import createMetadata from "@/tools/createMetadata";
 
 const ChildCompositePools = () => {

@@ -7,7 +7,7 @@ import pump3 from "../../../public/images/Pages/pumps/pump3.jpeg";
 
 import appearing from "@/tools/appearing";
 import InfoCard from "@/components/InfoBlock/InfoCard";
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 import createMetadata from "@/tools/createMetadata";
 
 const Pumps = () => {

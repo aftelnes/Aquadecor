@@ -7,7 +7,7 @@ import polypropylene from "../../../public/images/Pages/polypropylene_pools/poly
 import film from "../../../public/images/Pages/film_pools/film1.jpg";
 import mosaic from "../../../public/images/Pages/mosaic/mosaic1.jpg";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 
 import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
 import appearing from "@/tools/appearing";

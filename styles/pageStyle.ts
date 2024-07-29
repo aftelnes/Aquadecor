@@ -3,7 +3,6 @@ type PageStyle = {
   pageHr: string;
   pageH1: string;
   pageDescription: string;
-  pageColoredTextBlue: string;
 };
 
 const pageStyle: PageStyle = {
@@ -13,10 +12,9 @@ const pageStyle: PageStyle = {
     "border-1 border-black m-auto xl:w-[1200px] lg:container md:container",
   pageH1:
     "text-animation text-center mt-5 text-2xl xl:text-4xl lg:text-3xl lg:mt-4 lg:mb-10 md:text-3xl md:mt-4 md:mb-16",
-  pageColoredTextBlue: "text-cyan-400",
   pageDescription:
-    "relative element-animation m-auto mt-5  \
-    w-[340px] h-[200px]\
+    "relative element-animation m-auto mt-5 \
+    w-[340px] h-[220px]\
     xl:w-[900px] xl:h-[150px] xl:text-xl\
     lg:w-[800px] lg:h-[150px] lg:text-lg\
     md:w-[650px] md:h-[120px] md:text-md",

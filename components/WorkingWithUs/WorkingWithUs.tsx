@@ -4,10 +4,12 @@ import { useEffect } from "react";
 import appearing from "@/tools/appearing";
 import WorkingWithUsItem from "./WorkingWithUsItem/WorkingWithUsItem";
 
-import quality_control from "../../public/images/WorkingWIthUs/quality_control.jpg";
-import low_const from "../../public/images/WorkingWIthUs/low_cost.jpeg";
-import calc from "../../public/images/WorkingWIthUs/calc.jpg";
-import guarant from "../../public/images/WorkingWIthUs/guarant.jpg";
+import quality_control from "../../public/images/WorkingWIthUs/servicies-quality.png";
+import low_const from "../../public/images/WorkingWIthUs/low-cost.png";
+import calc from "../../public/images/WorkingWIthUs/free-calculating-3.png";
+import guarant from "../../public/images/WorkingWIthUs/guaranties-2.png";
+import comleting_task from "../../public/images/WorkingWIthUs/completing-task.png";
+import technical_support from "../../public/images/WorkingWIthUs/technical-support.png";
 
 const WorkingWithUs = () => {
   useEffect(() => {
@@ -45,12 +47,12 @@ const WorkingWithUs = () => {
       md:grid md:gap-2 md:grid-cols-2 md:grid-rows-1 md:mt-6"
       >
         <WorkingWithUsItem
-          text="Вы сможете узнать всю необходиму информцию в любой момент времени"
+          text="Наши специалисты лично несут ответственность за выполненную работу"
           header={"Контроль качества и услуг"}
           img={quality_control.src}
         />
         <WorkingWithUsItem
-          text="...."
+          text="Соотношение цена/качество выше вреднего по рынку"
           header={"Низкую цена"}
           img={low_const.src}
         />
@@ -61,14 +63,14 @@ const WorkingWithUs = () => {
       md:grid md:gap-2 md:grid-cols-2 md:grid-rows-1 md:mt-6"
       >
         <WorkingWithUsItem
-          text="Вы сможете узнать всю необходиму информцию в любой момент времени"
+          text="Все задачи выполняются в минимальные сроки с максимальной эффективностью"
           header={"Выполнение задач в кратчайший срок"}
-          img={quality_control.src}
+          img={comleting_task.src}
         />
         <WorkingWithUsItem
-          text="С 8:00 утра и до 18:00 вечера"
+          text="Наши специалисты ответят на все интересующие вопросы с 8:00 утра и до 18:00 вечера"
           header={"Техподдержку"}
-          img={low_const.src}
+          img={technical_support.src}
         />
       </div>
     </div>

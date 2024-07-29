@@ -7,7 +7,7 @@ import polypropylene2 from "../../../../public/images/Pages/polypropylene_pools/
 import polypropylene3 from "../../../../public/images/Pages/polypropylene_pools/polypropylene_pool3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 import createMetadata from "@/tools/createMetadata";
 
 const ChildPolypropylenePools = () => {

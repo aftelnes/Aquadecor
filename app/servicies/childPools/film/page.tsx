@@ -7,7 +7,7 @@ import film2 from "../../../../public/images/Pages/film_pools/film2.png";
 import film3 from "../../../../public/images/Pages/film_pools/film3.jpg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 import createMetadata from "@/tools/createMetadata";
 
 const ChildFilmsPools = () => {

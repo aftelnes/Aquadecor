@@ -7,7 +7,7 @@ import polypropylene from "../../../public/images/Pages/polypropylene_pools/poly
 import film from "../../../public/images/Pages/film_pools/film1.jpg";
 import mosaic from "../../../public/images/Pages/mosaic/mosaic1.jpg";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 
 import InfoBlockInPage from "@/components/InfoBlock/InfoBlockInPage";
 import appearing from "@/tools/appearing";
@@ -24,13 +24,11 @@ const SkimmerPools = () => {
       <hr className={pageStyle.pageHr} />
       <h1 className={pageStyle.pageH1}>Скиммерные бассейны</h1>
       <p className={pageStyle.pageDescription}>
-        <span className={pageStyle.pageColoredTextBlue}>
-          Скиммерные бассейны{" "}
-        </span>
-        - это вид бассейнов, оснащенных устройством для очистки воды. Скиммер -
-        это бак, в который поступает вода. Данные устройства можно установить и
-        на таких бассейнах, в которых заранее не была предусмотрена скиммерная
-        система. Для этого специально существуют навесные и плавающие скиммеры.
+        <span className="text-cyan-500">Скиммерные бассейны </span>- это вид
+        бассейнов, оснащенных устройством для очистки воды. Скиммер - это бак, в
+        который поступает вода. Данные устройства можно установить и на таких
+        бассейнах, в которых заранее не была предусмотрена скиммерная система.
+        Для этого специально существуют навесные и плавающие скиммеры.
       </p>
 
       <Link href="/servicies/skimmerPools/polypropylene">

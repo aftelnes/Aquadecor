@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import main_img from "../../public/images/about_us_main_img.jpg";
 import appearing from "@/tools/appearing";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 
 const AboutUs = () => {
   useEffect(() => {

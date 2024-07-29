@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 
 import appearing from "@/tools/appearing";
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 
 const div: string =
   "element-animation m-auto rounded shadow-xl shadow-gray-300 container\

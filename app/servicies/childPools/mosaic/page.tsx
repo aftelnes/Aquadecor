@@ -7,7 +7,7 @@ import mosaic2 from "../../../../public/images/Pages/mosaic/mosaic2.jpg";
 import mosaic3 from "../../../../public/images/Pages/mosaic/mosaic3.jpeg";
 import InfoCard from "@/components/InfoBlock/InfoCard";
 
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 import createMetadata from "@/tools/createMetadata";
 
 const ChildMosaicPools = () => {

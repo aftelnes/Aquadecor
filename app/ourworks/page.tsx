@@ -14,7 +14,7 @@ import img10 from "../../public/images/our_works/img10.jpg";
 
 import appearing from "@/tools/appearing";
 import OurWorksBlock from "@/components/OurWorks/OurWorksBlock";
-import pageStyle from "@/styles/pageStyles/pageStyle";
+import pageStyle from "@/styles/pageStyle";
 
 const OurWorksPage = () => {
   useEffect(() => {
