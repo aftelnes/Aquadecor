@@ -9,7 +9,7 @@ type EquipmentItemProps = {
 const InfoBlockInPage = ({ img, header, text }: EquipmentItemProps) => {
   return (
     <div
-      className="relative element-animation shadow-2xl shadow-grey-300 
+      className="relative element-animation shadow-xl shadow-grey-200 
       hover:shadow-cyan-300 rounded flex m-auto mt-5 mb-5
       w-[340px] 
       xl:w-[900px] xl:h-[200px]

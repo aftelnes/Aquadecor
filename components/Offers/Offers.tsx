@@ -54,7 +54,7 @@ const Offers = () => {
           />
         </Link>
         <InfoBlockMainPge
-          textHeader="Ёмкости из полипропилена"
+          textHeader="Чаши из полипропилена"
           cost={"от 30 000"}
           imgSrc={polypropilen.src}
         />

@@ -23,7 +23,7 @@ const OurWorksMainPage = () => {
 
   return (
     <div
-      className="element-animation m-auto
+      className="element-animation m-auto w-96
     xl:h-[700px] xl:w-[1200px]
     lg:h-[550px]
     md:h-[400px]

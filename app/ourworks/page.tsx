@@ -15,6 +15,7 @@ import img10 from "../../public/images/our_works/img10.jpg";
 import appearing from "@/tools/appearing";
 import OurWorksBlock from "@/components/OurWorks/OurWorksBlock";
 import pageStyle from "@/styles/pageStyle";
+import OurWorksBlockV2 from "@/components/OurWorks/OurWorksBlockV2";
 
 const OurWorksPage = () => {
   useEffect(() => {
@@ -23,7 +24,9 @@ const OurWorksPage = () => {
   return (
     <div className={pageStyle.pageStyle}>
       <hr className={pageStyle.pageHr} />
-      <OurWorksBlock
+      <h1 className={pageStyle.pageH1}>Наши работы</h1>
+
+      {/* <OurWorksBlock
         images={[
           img1.src,
           img2.src,
@@ -67,6 +70,27 @@ const OurWorksPage = () => {
           img10.src,
         ]}
         header="Детские бассейны"
+      /> */}
+      <OurWorksBlockV2
+        img1={img1.src}
+        img2={img2.src}
+        img3={img3.src}
+        img4={img4.src}
+        img5={img5.src}
+      />
+      <OurWorksBlockV2
+        img1={img1.src}
+        img2={img2.src}
+        img3={img3.src}
+        img4={img4.src}
+        img5={img5.src}
+      />
+      <OurWorksBlockV2
+        img1={img1.src}
+        img2={img2.src}
+        img3={img3.src}
+        img4={img4.src}
+        img5={img5.src}
       />
     </div>
   );

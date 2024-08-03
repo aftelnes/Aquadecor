@@ -52,16 +52,13 @@ const Footer = () => {
           >
             <h3 className="m-auto pt-2 font-semibold">Изготовление</h3>
             <hr className="border-1 border-black m-auto w-11/12" />
-            <Link href="/servicies/overflowPools" className={footerLink}>
+            <Link href="/" className={footerLink}>
               Каркасов для бассейна
             </Link>
-            <Link href="/servicies/skimmerPools" className={footerLink}>
-              Чаш из полипропилена
-            </Link>
-            <Link href="/servicies/childPools" className={footerLink}>
+            <Link href="/" className={footerLink}>
               Ёмкостей из полипропилена
             </Link>
-            <Link href="/equipments" className={footerLink}>
+            <Link href="/" className={footerLink}>
               Купелей
             </Link>
           </div>

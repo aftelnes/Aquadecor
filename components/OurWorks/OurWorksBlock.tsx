@@ -12,7 +12,7 @@ const imgStyle =
 const OurWorksBlock = ({ images, header }: OurWorksProps) => {
   return (
     <div
-      className="element-animation h-auto m-auto 
+      className="element-animation h-auto m-auto w-96
     xl:w-[1200px] xl:mt-20 
     lg:container lg:mt-10 
     md:container md:mt-8 md:mb-10

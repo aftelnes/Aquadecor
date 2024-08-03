@@ -8,7 +8,7 @@ const appearing = () => {
   }
 
   let options: IntersectionObserverInit = {
-    threshold: [0.2],
+    threshold: [0.05],
   };
   let observer = new IntersectionObserver(onEntry, options);
   let elements = document.querySelectorAll<HTMLElement>(".element-animation");

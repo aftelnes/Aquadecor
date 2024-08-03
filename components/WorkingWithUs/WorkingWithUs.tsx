@@ -18,7 +18,7 @@ const WorkingWithUs = () => {
   return (
     <div className="element-animation h-auto container m-auto xl:w-[1200px] xl:mt-20 lg:mt-10 md:mt-8">
       <h1
-        className="text-animation text-2xl w-[300px] m-auto mt-5 mb-2 
+        className="text-animation text-2xl w-[300px] m-auto mt-5 mb-5 
       xl:text-5xl xl:mb-16 xl:container
       lg:mb-12 lg:text-4xl lg:container
       md:text-3xl md:mb-10 md:container"
@@ -53,7 +53,7 @@ const WorkingWithUs = () => {
         />
         <WorkingWithUsItem
           text="Соотношение цена/качество выше вреднего по рынку"
-          header={"Низкую цена"}
+          header={"Доступную цену"}
           img={low_const.src}
         />
       </div>

@@ -53,7 +53,7 @@ const Equipments = () => {
       <InfoBlockInPage img={pic.src} header="Дезинфекция" text="Станции" />
       <InfoBlockInPage
         img={pic.src}
-        header="Химия для бассейнра"
+        header="Химия для бассейна"
         text="Станции"
       />
       <InfoBlockInPage
