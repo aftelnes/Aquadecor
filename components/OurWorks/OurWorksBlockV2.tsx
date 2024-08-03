@@ -1,4 +1,3 @@
-import image from "../../public/images/our_works/img10.jpg";
 
 type OurWorksProps = {
   img1: string;

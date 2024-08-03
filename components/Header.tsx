@@ -25,7 +25,7 @@ const Header = () => {
       >
         <Menu shadow="md" width={200}>
           <Menu.Target>
-            <div className="h-7 text-center text-xl mb-1 hover:opacity-60 xl:text-xl lg:text-lg md:text-base">
+            <div className="h-7 text-center text-xl mb-1 hover:text-cyan-500 xl:text-xl lg:text-lg md:text-base">
               <button>Услуги</button>
             </div>
           </Menu.Target>
@@ -54,24 +54,24 @@ const Header = () => {
         </Menu>
         <Link
           href="/equipments"
-          className="h-7 text-center text-xl mb-1 hover:opacity-60 xl:text-xl lg:text-lg md:text-base"
+          className="h-7 text-center text-xl mb-1 hover:text-cyan-500 xl:text-xl lg:text-lg md:text-base"
         >
           Оборудование
         </Link>
         <Link
-          className="h-7 text-center text-xl mb-1 hover:opacity-60 xl:text-xl lg:text-lg md:text-base"
+          className="h-7 text-center text-xl mb-1 hover:text-cyan-500 xl:text-xl lg:text-lg md:text-base"
           href="/ourworks"
         >
           Наши работы
         </Link>
         <Link
           href="/about"
-          className="h-7 text-center text-xl mb-1 hover:opacity-60 xl:text-xl lg:text-lg md:text-base"
+          className="h-7 text-center text-xl mb-1 hover:text-cyan-500 xl:text-xl lg:text-lg md:text-base"
         >
           Про нас
         </Link>
         <Link
-          className="h-7 text-center text-xl mb-1 hover:opacity-60 xl:text-xl lg:text-lg md:text-base"
+          className="h-7 text-center text-xl mb-1 hover:text-cyan-500 xl:text-xl lg:text-lg md:text-base"
           href="/contacts"
         >
           Контакты

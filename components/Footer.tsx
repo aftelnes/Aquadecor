@@ -50,16 +50,19 @@ const Footer = () => {
             className="grid grid-rows-6 grid-flow-col gap-0.5
         xl:w-[200px]"
           >
-            <h3 className="m-auto pt-2 font-semibold">Изготовление</h3>
+            <h3 className="m-auto pt-2 font-semibold">Мы делаем</h3>
             <hr className="border-1 border-black m-auto w-11/12" />
             <Link href="/" className={footerLink}>
-              Каркасов для бассейна
+              Проектирование
             </Link>
             <Link href="/" className={footerLink}>
-              Ёмкостей из полипропилена
+              Реставрацию
             </Link>
             <Link href="/" className={footerLink}>
-              Купелей
+              Купели
+            </Link>
+            <Link href="/" className={footerLink}>
+              Ёмкости из полипропилена
             </Link>
           </div>
           <div
