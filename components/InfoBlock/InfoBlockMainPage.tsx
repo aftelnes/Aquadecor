@@ -5,6 +5,8 @@ type InfoBlockProps = {
 };
 
 const InfoBlock = ({ textHeader, cost, imgSrc }: InfoBlockProps) => {
+  //Todo как цены появятся пробрасывать пропсом
+
   return (
     <div
       className="info-block mt-6 shadow-xl shadow-grey-200 hover:shadow-cyan-300 rounded bg-cyan-400
@@ -43,15 +45,6 @@ const InfoBlock = ({ textHeader, cost, imgSrc }: InfoBlockProps) => {
           от 100 000p
         </p>
       </div>
-      {/* <p
-        className="text-black font-bold ml-[10px] mt-[5px] pb-[5px]
-          xl:mb-3 xl:h-[20px] xl:w-[430px] xl:ml-[15px] xl:text-xl
-          lg:mb-2 lg:text-lg lg:ml-[10px]
-          md:mb-1 md:text-sm md:ml-[5px]
-        "
-      >
-        {cost} р.
-      </p> */}
     </div>
   );
 };

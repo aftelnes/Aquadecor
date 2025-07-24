@@ -2,9 +2,11 @@ type InfoCardProps = {
   image: string;
   imageLocation: string;
   imageAlt: string;
+  text?: string[];
 };
 
-const InfoCard = ({ image, imageLocation, imageAlt }: InfoCardProps) => {
+const InfoCard = ({ image, imageLocation, imageAlt, text }: InfoCardProps) => {
+  //Todo при появлении конкретного текст "Здесь будет текст" заменить на пропс
   return (
     <>
       {imageLocation == "left" ? (
